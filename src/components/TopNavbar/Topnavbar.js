@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import logo from "../../images/PNLdistlogo.png";
 import './topnavbar.css';
 
 
@@ -9,15 +10,15 @@ class Topnavbar extends Component {
             {/* <!-- Navbar --> */}
             <nav class="navbar navbar-expand-lg navbar-light fixed-top mask-custom shadow-0">
                 <div class="container">
-                <a class="navbar-brand" href="#!"><span style={{color: '#5e9693'}}>Panaderia</span><span style={{color: '#fff'}}>Nuevo Leon</span></a>
+                    <img src={logo} alt="Bakery Logo" class="bakeryLogo" />
 
-                <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="fas fa-bars"></i>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
                 </button>
 
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-                        <ul class="navbar-nav me-auto">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
                                 <a class="nav-link" href="#!">Offer</a>
                             </li>
@@ -41,36 +42,14 @@ class Topnavbar extends Component {
                             </li>
                         </ul>
 
-                        <ul class="navbar-nav d-flex flex-row">
-                            <li class="nav-item me-3 me-lg-0">
-                                <a class="nav-link" href="#!">
-                                <i class="fas fa-shopping-cart"></i>
-                                </a>
-                            </li>
-                            <li class="nav-item me-3 me-lg-0">
-                                <a class="nav-link" href="#!">
-                                <i class="fab fa-twitter"></i>
-                                </a>
-                            </li>
-                            <li class="nav-item me-3 me-lg-0">
-                                <a class="nav-link" href="#!">
-                                <i class="fab fa-instagram"></i>
-                                </a>
-                            </li>
-                        </ul>
-
                     </div>
+                    
                 </div>
             </nav>
             {/* <!-- Navbar --> */}
 
             {/* <!--Section: Design Block--> */}
-            <section>
-                {/* <!-- Intro --> */}
-                <div class="mask" style={{ backgroundcolor: 'rgba(250, 182, 162, 0.15)' }} ></div>
 
-                {/* <!-- Intro --> */}
-            </section>
             {/* <!--Section: Design Block--> */}
             </header>
         );
