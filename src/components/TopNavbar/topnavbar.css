@@ -20,7 +20,11 @@
 
 .mask-custom {
   backdrop-filter: blur(5px);
-  background-color: rgba(255, 255, 255, .15);
+  background-color: rgba(255, 0, 0, 0.50);
+}
+
+.navBody {
+  padding: 1vh 6%;
 }
 
 .navbar-brand {
@@ -29,5 +33,5 @@
 }
 
 .bakeryLogo{
-  max-width: 20%;
+  max-width: 15%;
 }
