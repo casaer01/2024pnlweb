@@ -7,8 +7,8 @@ class Topnavbar extends Component {
     render() {
         return (
             <div>
-            <nav className="navbar navbar-expand-lg navbar-light fixed-top mask-custom shadow-1">
-                <div className="container navBody">
+            <nav className="navbar navbar-expand-lg navbar-dark fixed-top mask-custom shadow-3">
+                <div className="container navBody ">
                     <img src={logo} alt="Bakery Logo" className="bakeryLogo" />
 
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

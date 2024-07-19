@@ -1,8 +1,11 @@
-/* Color of the links BEFORE scroll */
+.nav-link .nav-link:active .nav-link:visited {
+  color: white;
+}
 
-
-/* Color of the links AFTER scroll */
-
+.nav-link:hover{
+  transform: scale(1.3);
+  color: white;
+}
 
 /* Color of the navbar AFTER scroll */
 .navbar-scroll,
@@ -16,7 +19,7 @@
 }
 
 .navBody {
-  padding: 1vh 6%;
+  /* padding: 1vh 5%; */
 }
 
 .navbar-brand {
@@ -25,5 +28,5 @@
 }
 
 .bakeryLogo{
-  max-width: 15%;
+  max-width: 17%;
 }
