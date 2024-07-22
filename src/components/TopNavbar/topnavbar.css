@@ -24,9 +24,16 @@
 
 .navbar-brand {
   font-size: 1.75rem;
-  letter-spacing: 3px;
+  letter-spacing: 5px;
 }
 
 .bakeryLogo{
-  max-width: 17%;
+  /* width max for mobile is 991px */
+  max-width: 14%;
+}
+
+@media screen and (max-width: 991px) {
+  .bakeryLogo {
+    max-width: 25%;
+  }  
 }
