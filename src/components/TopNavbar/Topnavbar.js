@@ -8,7 +8,7 @@ class Topnavbar extends Component {
     render() {
         return (
             <div>
-                <nav className="navbar navbar-expand-lg navbar-dark fixed-top mask-custom shadow-3">
+                <nav className="navbar d-flex navbar-expand-lg navbar-dark fixed-top mask-custom shadow-3 ">
                     <div className="container-fluid navBody ">
 
                         <img src={sidebrand} alt="paper Picado" className="bakeryLogo" />
@@ -18,9 +18,9 @@ class Topnavbar extends Component {
                         <span className="navbar-toggler-icon"></span>
                     </button>
 
-                        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                        <div className="collapse justify-content-end navbar-collapse" id="navbarSupportedContent">
 
-                            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                            <ul className="navbar-nav  me-auto mb-2 mb-lg-0">
                                 <li className="nav-item">
                                     <a className="nav-link" href="#!">Home</a>
                                 </li>
