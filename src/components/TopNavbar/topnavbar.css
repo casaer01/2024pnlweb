@@ -18,26 +18,40 @@
 }
 
 .navBody{
-  padding: 0 10%;
+  padding: 0% 0%;
 }
 
 .mask-custom {
   backdrop-filter: blur(5px);
   background-color: rgba(255, 0, 0, 0.50);
+  padding: 0%;
 }
 
 .navbar-brand {
   font-size: 1.75rem;
   letter-spacing: 5px;
 }
+.rightBlock{
+  float: right;
+  text-align: right;
+  padding-right: 5%;
+}
 
 .bakeryLogo{
   /* width max for mobile is 991px */
   max-width: 14%;
 }
+.bakeryIcon{
+  height: 100%;
+}
 
 @media screen and (max-width: 991px) {
   .bakeryLogo {
+    min-width: 10%;
     max-width: 25%;
   }  
+  .bakeryIcon{
+    min-width: 10%;
+    max-width: 25%;  
+  }
 }
