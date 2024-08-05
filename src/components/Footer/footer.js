@@ -8,10 +8,10 @@ export default class footer extends Component {
     render() {
         return (
             <footer className='text-center text-lg-start bg-body-tertiary text-muted'>
-                <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+                <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom footerSandwich">
 
                     <div class="me-5 d-none d-lg-block">
-                        <span>Get connected with us on social networks:</span>
+                        <span>Get connected with us on our social networks:</span>
                     </div>
 
                     <div>
@@ -32,8 +32,8 @@ export default class footer extends Component {
                     </a>
                     </div>
                 </section>
-                <section class="">
-                    <div class="container text-center text-md-start mt-5">
+                <section class="footerCenter">
+                    <div class="container text-center text-md-start pt-5">
                         <div class="row mt-3">
                             <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
                                 <h6 class="text-uppercase fw-bold mb-4">
@@ -90,18 +90,15 @@ export default class footer extends Component {
                                     <p>
                                         <i class="fas fa-envelope me-3"></i>info@example.com
                                     </p>
-                                    <p>
-                                        <i class="fas fa-phone me-3"></i> + 01 234 567 88
-                                    </p>
-                                    <p>
-                                        <i class="fas fa-print me-3"></i> + 01 234 567 89
-                                    </p>
+                                    <a href="tel:+13122435977" class="fas fa-phone me-3" >
+                                        <i class="fas fa-phone me-3">+ (312)243-5977</i> 
+                                    </a>
                                 </div>
                             </div>
                         </div>
                     </section>
 
-                    <div class="text-center p-4" style={{backgroundColor: 'rgba(0, 0, 0, 0.05)'}}>
+                    <div class="text-center p-4 footerSandwich" >
                         © 2024 Copyright: 
                         <a class="text-reset fw-bold" href={link}>Panaderia Nuevo Leon</a>
                     </div>
