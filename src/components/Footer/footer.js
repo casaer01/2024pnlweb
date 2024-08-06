@@ -37,29 +37,32 @@ export default class footer extends Component {
                         <div class="row mt-3">
                             <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
                                 <h6 class="text-uppercase fw-bold mb-4">
-                                    <i class="fas fa-gem me-3"></i>Company name
+                                    <i class="fas fa-gem me-3"></i>Panaderia Nuevo Leon
                                 </h6>
                                 <p>
-                                    Here you can use rows and columns to organize your footer content. Lorem ipsum
-                                    dolor sit amet, consectetur adipisicing elit.
+                                    In the Pilsen Community of Chicago since 1973, we're a traditional self-serve mexican bakery having a wide varity of sweets, cakes, cookies, conchas, and tortillas. 
+                                    In addition, our bakers also serve vegan goods that is baked daily and delicious.
                                 </p>
                             </div>
 
                         <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
                             <h6 class="text-uppercase fw-bold mb-4">
-                                Products
+                                Our services.
                             </h6>
                             <p>
-                                <a href="#!" class="text-reset">Angular</a>
+                                <a href="#!" class="text-reset">Tortillas</a>
                             </p>
                             <p>
-                                <a href="#!" class="text-reset">React</a>
+                                <a href="#!" class="text-reset">Bread</a>
                             </p>
                             <p>
-                                <a href="#!" class="text-reset">Vue</a>
+                                <a href="#!" class="text-reset">Ordres</a>
                             </p>
                             <p>
-                                <a href="#!" class="text-reset">Laravel</a>
+                                <a href="#!" class="text-reset">About us</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Contact us</a>
                             </p>
                             </div>
 

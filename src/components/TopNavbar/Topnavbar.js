@@ -28,6 +28,9 @@ class Topnavbar extends Component {
                                     <a className="nav-link" href="#!">Tortillas</a>
                                 </li>
                                 <li className="nav-item">
+                                    <a className="nav-link" href="#!">Bread</a>
+                                </li>
+                                <li className="nav-item">
                                     <a className="nav-link" href="#!">Orders</a>
                                 </li>
                                 <li className="nav-item">
