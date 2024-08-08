@@ -1,9 +1,18 @@
 .footerSandwich{
-    background-color: darkred;
+    background-color: #950707;
     color: white;
 }
 
 .footerCenter {
-    background-color: red;
+    background-color: #950707;
     color: white;
+}
+
+.footerLink { 
+    transition: all .2s ease-in-out; 
+}
+
+.footerLink:hover{
+    transform: scale(1.3);
+    rotate: 10d;
 }

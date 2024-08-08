@@ -49,38 +49,36 @@ export default class footer extends Component {
                             <h6 class="text-uppercase fw-bold mb-4">
                                 Our services.
                             </h6>
-                            <p>
-                                <a href="#!" class="text-reset">Tortillas</a>
+                            <p className='footerLink' >
+                                <a href="#!" className="text-reset ">Tortillas</a>
                             </p>
-                            <p>
+                            <p className='footerLink'>
                                 <a href="#!" class="text-reset">Bread</a>
                             </p>
-                            <p>
-                                <a href="#!" class="text-reset">Ordres</a>
+                            <p className='footerLink'>
+                                <a href='#!' className='text-reset'>Deserts</a>
                             </p>
-                            <p>
-                                <a href="#!" class="text-reset">About us</a>
+                            <p className='footerLink'>
+                                <a href='#!' className='text-reset'>Vegan Pastries</a>
                             </p>
-                            <p>
-                                <a href="#!" class="text-reset">Contact us</a>
-                            </p>
+
                             </div>
 
                             <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
 
                             <h6 class="text-uppercase fw-bold mb-4">
                             </h6>
-                                <p>
-                                    <a href="#!" class="text-reset">Pricing</a>
+                                <p className='footerLink'>
+                                    <a href="#!" class="text-reset">Menu</a>
                                 </p>
-                                <p>
-                                    <a href="#!" class="text-reset">Settings</a>
-                                </p>
-                                <p>
+                                <p className='footerLink'>
                                     <a href="#!" class="text-reset">Orders</a>
                                 </p>
-                                <p>
-                                    <a href="#!" class="text-reset">Help</a>
+                                <p className='footerLink'>
+                                    <a href="#!" class="text-reset">About us</a>
+                                </p>
+                                <p className='footerLink'>
+                                    <a href="#!" class="text-reset">Contact us</a>
                                 </p>
                             </div>
 
@@ -88,7 +86,7 @@ export default class footer extends Component {
 
                                 <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
                                     <p>
-                                        <i class="fas fa-home me-3"></i> New York, NY 10012, US
+                                        <i class="fas fa-home me-3 text-reset"></i> 1634 W. 18th Street. Chicago, Illinois
                                     </p>
                                     <p>
                                         <i class="fas fa-envelope me-3"></i>info@example.com
