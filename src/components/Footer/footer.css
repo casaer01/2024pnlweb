@@ -14,5 +14,5 @@
 
 .footerLink:hover{
     transform: scale(1.3);
-    rotate: 10d;
+    rotate: 2deg;
 }

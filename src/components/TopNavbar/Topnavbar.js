@@ -20,7 +20,7 @@ class Topnavbar extends Component {
 
                         <div className="collapse justify-content-end navbar-collapse" id="navbarSupportedContent">
 
-                            <ul className="navbar-nav rightBlock mx-auto me-auto mb-2 mb-lg-0">
+                            <ul className="navbar-nav rightBlock mx-auto me-auto mb-2 mb-lg-1">
                                 <li className="nav-item ">
                                     <a className="nav-link " href="#!">Home</a>
                                 </li>
