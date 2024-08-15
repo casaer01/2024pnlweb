@@ -1,5 +1,4 @@
 import React ,{ Component } from "react";
-import { Container, Row, Col } from "react-bootstrap";
 import pnldistlogo from '../../../src/images/PNLdistlogo.png';
 import pnldistmenu from '../../../src/images/PNLdistmenu.png';
 import pnlstrip from '../../images/breads.png';

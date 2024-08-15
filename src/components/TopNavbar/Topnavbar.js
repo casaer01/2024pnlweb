@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import {About} from '../AboutPNL/AboutPNL'
+import {Route, Switch, Redirect} from "react-router-dom";
 import logo from "../../images/PNLdistlogo.png";
 import sidebrand from "../../images/papelred.png";
 import './topnavbar.css';
@@ -22,7 +24,7 @@ class Topnavbar extends Component {
 
                             <ul className="navbar-nav rightBlock mx-auto me-auto mb-2 mb-lg-1">
                                 <li className="nav-item ">
-                                    <a className="nav-link " href="#!">Home</a>
+                                    <a className="nav-link" href="#!" >Home</a>
                                 </li>
                                 <li className="nav-item">
                                     <a className="nav-link" href="#!">Tortillas</a>
