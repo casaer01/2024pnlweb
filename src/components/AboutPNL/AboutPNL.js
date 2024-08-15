@@ -9,20 +9,20 @@ class AboutPNL extends Component{
 
     render() {
         return (
-        <Container className="aboutpnl" id="aboutpnl" ref={this.aboutRef} fluid >
+        <div className="aboutpnl" id="aboutpnl" ref={this.aboutRef} fluid >
             <span>
                 <img className="pnlstrip" src={pnlstrip} alt="pnl strip of bread" />
             </span>
-            <Container>
-                <Row className="pnllogosRow">
-                    <Col>
+            <div>
+                <div className="pnllogosRow row">
+                    <div className="col">
                         <img src={pnldistlogo} alt="PNL's logo " width='100%' />
-                    </Col>
-                    <Col>
+                    </div>
+                    <div>
                         <img src={pnldistmenu} alt="Pnl's short menu" width='100%' />
-                    </Col>
-                </Row>
-            </Container>
+                    </div>
+                </div>
+            </div>
             <br />
             <br />
             <p className='info' >
@@ -38,7 +38,7 @@ class AboutPNL extends Component{
             <span>
                 <img className="pnlstrip" src={pnlstrip} alt="pnl strip of bread" />
             </span>
-        </Container>);
+        </div>);
     }
 }
 
