@@ -9,7 +9,7 @@ class AboutPNL extends Component{
 
     render() {
         return (
-        <div className="aboutpnl" id="aboutpnl" ref={this.aboutRef} fluid >
+        <div className="aboutpnl" id="aboutpnl"  >
             <span>
                 <img className="pnlstrip" src={pnlstrip} alt="pnl strip of bread" />
             </span>
@@ -18,7 +18,7 @@ class AboutPNL extends Component{
                     <div className="col">
                         <img src={pnldistlogo} alt="PNL's logo " width='100%' />
                     </div>
-                    <div>
+                    <div className="col">
                         <img src={pnldistmenu} alt="Pnl's short menu" width='100%' />
                     </div>
                 </div>

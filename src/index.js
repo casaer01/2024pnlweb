@@ -14,6 +14,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Topnavbar from './components/TopNavbar/Topnavbar';
 import SlideShow from './components/SlideShow/Slideshow';
 import Footer from './components/Footer/footer';
+import AboutUs from './components/AboutPNL/AboutPNL'
 
 import reportWebVitals from './reportWebVitals';
 // import 'bootstrap/dist/css/bootstrap.css';
@@ -25,6 +26,7 @@ root.render(
     <Topnavbar />
     <SlideShow />
     <App />
+    <AboutUs />
     <Footer />
 </BrowserRouter>
 );
