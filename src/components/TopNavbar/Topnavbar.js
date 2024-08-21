@@ -9,7 +9,7 @@ import './topnavbar.css';
 class Topnavbar extends Component {
     render() {
         return (
-            <div className="d-flex mt-5">
+            <div className="d-flex">
                 <nav className="navbar d-flex navbar-expand-lg navbar-dark fixed-top mask-custom shadow-3">
                     <div className="container-fluid navBody justify-content-between">
 
