@@ -10,7 +10,9 @@ class Topnavbar extends Component {
     render() {
         return (
             <div>
-                <div className="blank"></div>
+                <div className="blank container-fluid navbar navbar-expand-lg p-0">
+                    <img src={sidebrand} alt="paper Picado" className="bakeryIcon " />
+                </div>
                 <div className="d-flex">
                     <nav className="navbar d-flex navbar-expand-lg navbar-dark fixed-top mask-custom shadow-3">
                         <div className="container-fluid navBody justify-content-between">
