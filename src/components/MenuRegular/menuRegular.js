@@ -20,13 +20,25 @@ export class menuRegular extends Component {
 
         <div className="row">
           <div className="col-sm">
-            One of three columns
+            <img src='' alt='mexican muffin with a concha on top'></img>
+            <h2>ManteConcha</h2>
+            <p>
+              A mexican mix between the two popular pasteries muffin and a conchas. Instead of a regular muffen top a crisp mini concha takes its place.
+            </p>
           </div>
           <div className="col-sm">
-            One of three columns
+            <img src='' alt='bread desc'></img>
+            <h2>Pastery</h2>
+            <p>
+              desc
+            </p>
           </div>
           <div className="col-sm">
-            One of three columns
+            <img src='' alt='bread desc'></img>
+            <h2>Pastery</h2>
+            <p>
+              desc
+            </p>
           </div>
         </div>
 
