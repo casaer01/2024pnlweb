@@ -4,7 +4,7 @@ import './menuRegular.css';
 export class menuRegular extends Component {
   render() {
     return (
-      <div className="container">
+      <div className="container-fluid menuBackground">
 
         <div className="row" >
           <div className="col-sm">
