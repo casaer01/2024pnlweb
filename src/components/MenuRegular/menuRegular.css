@@ -4,3 +4,8 @@
     background: linear-gradient(0deg, #8d0505 0%, #dc0000 50%, #8d0505 100%);
     color: white;
 }
+
+.col-sm{
+    margin: 1%;
+    background-color: rgba(25, 7, 7, .5);
+}
