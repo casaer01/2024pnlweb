@@ -19,14 +19,25 @@ export class menuRegular extends Component {
         </div>
 
         <div className="row">
-          <div className="col-sm">
+
+          {/* <div className="col-sm">
             <img src='' alt='mexican muffin with a concha on top'></img>
             <h2>ManteConcha</h2>
             <p>
               A mexican mix between the two popular pasteries muffin and a conchas. 
               Instead of a regular muffen top a crisp mini concha takes its place.
             </p>
+          </div> */}
+
+          <div class="card col-sm">
+            <img src="..." class="card-img-top" alt="mexican muffin with a concha on top"/>
+            <div class="card-body">
+              <h3 class="card-title">ManteConcha</h3>
+              <p class="card-text">A mexican mix between the two popular pasteries muffin and a conchas. 
+              Instead of a regular muffen top a crisp mini concha takes its place.</p>
+            </div>
           </div>
+
           <div className="col-sm">
             <img src='' alt='bread desc'></img>
             <h2>Bolillo</h2>
@@ -46,32 +57,43 @@ export class menuRegular extends Component {
         </div>
 
         <div className="row">
-            <div class="card col-sm">
-              <img src="..." class="card-img-top" alt="..."/>
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="/" class="btn btn-secondary">Go somewhere</a>
-              </div>
+
+          <div class="card col-sm">
+            <img src="..." class="card-img-top" alt="..."/>
+            <div class="card-body">
+              <h3 class="card-title">Buñuelos</h3>
+              <p class="card-text">Disc of fried dough that is covered in cinnamon sugar or can be topped in sryup. While this fried dough is popular to eat during the holidays it is enjoyed thoughout the year.</p>
+            </div>
           </div>
-          <div className="col-sm">
-            One of three columns
+
+          <div class="card col-sm">
+            <img src="..." class="card-img-top" alt="..."/>
+            <div class="card-body">
+              <h3 class="card-title">Orajas</h3>
+              <p class="card-text">These puff pastry cookies are sweet and crunchy treats with a coating of caramelized sugar. Orejas are perfect to have with a cup of coffee or alone as a pick-me-up.</p>
+            </div>
           </div>
-          <div className="col-sm">
-            One of three columns
+
+          <div class="card col-sm">
+            <img src="..." class="card-img-top" alt="..."/>
+            <div class="card-body">
+              <h3 class="card-title">Empanada</h3>
+              <p class="card-text">Delicious sweet dough that has a baked outside and has fruit filling inside of the bread. Raspberry, pineapple, apple are one of possible filling flavors.</p>
+            </div>
           </div>
+
         </div>
 
         <div className="row">
+
           <div className="col-sm">
-            One of three columns
+            One of two columns
           </div>
+
           <div className="col-sm">
-            One of three columns
+            One of two columns
           </div>
-          <div className="col-sm">
-            One of three columns
-          </div>
+
         </div>
       </div>
     )
