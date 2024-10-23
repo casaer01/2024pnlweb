@@ -17,6 +17,7 @@
     flex-direction: row;
     align-items: center;
     transition: all .2s ease-in;
+    
     -webkit-box-shadow: 4px 6px 13.5px 8.5px #950b0b;
     -moz-box-shadow: 4px 6px 13.5px 8.5px #950b0b;
     box-shadow: 4px 6px 13.5px 8.5px #950b0b;
