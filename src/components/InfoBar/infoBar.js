@@ -1,18 +1,18 @@
 import React, { Component, useState, useEffect } from "react";
 
-function callWeather() {
-    const [userData, setUserData] = useState(null);
+const currWeather = () => {
+    const [weatherData, setweatherData] = useState(null);
     const latitude = "41.878113";
     const longitude = "-87.629799";
 
+    const fetchWeather = async () => {
+        const response = await fetch(`https://api.weather.gov/points/${latitude},${longitude}`);
+        const data = await response.json();
+        setweatherData(data)
+    };
+
     useEffect(() => {
-  
-      fetch(`https://api.weather.gov/points/${latitude},${longitude}`)
-  
-        .then(response => response.json())
-  
-        .then(data => setUserData(data));
-  
+        fetchData()
     }, []);
 }
 
@@ -30,7 +30,7 @@ class infoBar extends Component {
                 </span>
                 |
                 <span>
-                    Weather:
+                    Weather: {weatherData}
                 </span>
             </div>
         </div>
