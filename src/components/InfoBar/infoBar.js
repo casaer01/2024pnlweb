@@ -1,7 +1,7 @@
 import React, { Component, useState, useEffect } from "react";
 
 // https://www.codingdeft.com/posts/react-fetch-data-api/#fetching-data-in-react-using-async-await
-const currWeather = () => {
+const CurrWeather = () => {
     const [weatherData, setweatherData] = useState(null);
     const latitude = "41.878113";
     const longitude = "-87.629799";
@@ -13,7 +13,7 @@ const currWeather = () => {
     };
 
     useEffect(() => {
-        fetchData()
+        fetchWeather()
     }, []);
 }
 

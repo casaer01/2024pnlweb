@@ -3,6 +3,7 @@ import slideConcha from "../../images/slideshowConchas.png";
 import slideTort from "../../images/slideshowTortillas.png";
 import slideSweet from "../../images/slideshowSweets.png";
 import slideVegans from "../../images/slideshowVegans.png";
+import infoBar from "../InfoBar/infoBar";
 import './SlideShow.css';
 
 class Slideshow extends Component {
@@ -10,20 +11,7 @@ class Slideshow extends Component {
         return (
             <div>
                 <div className="topblack row" >
-                    <div className="col-md-7">
-                        <span>
-                            +1 312 243 5977  
-                        </span>
-                         |
-                        <span>
-                            <i className="fa-clock-o"/>
-                            Mon - Sun 7:00 am - 8:00 pm
-                        </span>
-                         |
-                         <span>
-                            Weather:
-                         </span>
-                    </div>
+
                 </div>
                 <div className="Block" ></div>   
                 <div id="carouselExampleIndicators" className="carousel slide">
