@@ -12,7 +12,7 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Topnavbar from './components/TopNavbar/Topnavbar';
-import infoBar from './components/InfoBar/infoBar';
+import InfoBar from './components/InfoBar/infoBar';
 import SlideShow from './components/SlideShow/Slideshow';
 import Footer from './components/Footer/footer';
 import AboutUs from './components/AboutPNL/AboutPNL'
@@ -26,7 +26,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 <BrowserRouter>
     <Topnavbar />
-    <infoBar />
+    <InfoBar />
     <SlideShow />
     <App />
     <AboutUs />

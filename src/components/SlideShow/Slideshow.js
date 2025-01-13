@@ -3,7 +3,6 @@ import slideConcha from "../../images/slideshowConchas.png";
 import slideTort from "../../images/slideshowTortillas.png";
 import slideSweet from "../../images/slideshowSweets.png";
 import slideVegans from "../../images/slideshowVegans.png";
-import infoBar from "../InfoBar/infoBar";
 import './SlideShow.css';
 
 class Slideshow extends Component {
