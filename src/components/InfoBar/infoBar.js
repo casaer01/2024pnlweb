@@ -21,6 +21,24 @@ const CurrWeather = () => {
 }
 
 class infoBar extends Component {
+    CurrWeather = () => {
+        const [weatherData, setweatherData] = useState(null);
+        const latitude = "41.878113";
+        const longitude = "-87.629799";
+    
+        const fetchWeather = async () => {
+            const response = await fetch(`https://api.weather.gov/points/${latitude},${longitude}`);
+            const data = await response.json();
+            setweatherData(data)
+        };
+    
+        useEffect(() => {
+            fetchWeather()
+        }, []);
+    
+        return(weatherData);
+    }
+
     render() {
         return(
             <div className="topblack row" >
