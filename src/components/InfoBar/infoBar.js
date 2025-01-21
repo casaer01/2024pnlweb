@@ -2,26 +2,27 @@ import React, { Component, useState, useEffect } from "react";
 
 // https://www.codingdeft.com/posts/react-fetch-data-api/#fetching-data-in-react-using-async-await
 // https://www.geeksforgeeks.org/different-ways-to-fetch-data-using-api-in-react/
-const CurrWeather = () => {
-    const [weatherData, setweatherData] = useState(null);
-    const latitude = "41.878113";
-    const longitude = "-87.629799";
+// const CurrWeather = () => {
+//     const [weatherData, setweatherData] = useState(null);
+//     const latitude = "41.878113";
+//     const longitude = "-87.629799";
 
-    const fetchWeather = async () => {
-        const response = await fetch(`https://api.weather.gov/points/${latitude},${longitude}`);
-        const data = await response.json();
-        setweatherData(data)
-    };
+//     const fetchWeather = async () => {
+//         const response = await fetch(`https://api.weather.gov/points/${latitude},${longitude}`);
+//         const data = await response.json();
+//         setweatherData(data)
+//     };
 
-    useEffect(() => {
-        fetchWeather()
-    }, []);
+//     useEffect(() => {
+//         fetchWeather()
+//     }, []);
 
-    return(weatherData);
-}
+//     return(weatherData);
+// }
 
 class infoBar extends Component {
     CurrWeather = () => {
+        //current weatherdata returns a grid. not what is needed
         const [weatherData, setweatherData] = useState(null);
         const latitude = "41.878113";
         const longitude = "-87.629799";
@@ -36,7 +37,6 @@ class infoBar extends Component {
             fetchWeather()
         }, []);
     
-        return(weatherData);
     }
 
     render() {
