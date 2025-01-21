@@ -1,43 +1,50 @@
 import React, { Component, useState, useEffect } from "react";
-
-// https://www.codingdeft.com/posts/react-fetch-data-api/#fetching-data-in-react-using-async-await
-// https://www.geeksforgeeks.org/different-ways-to-fetch-data-using-api-in-react/
-// const CurrWeather = () => {
-//     const [weatherData, setweatherData] = useState(null);
-//     const latitude = "41.878113";
-//     const longitude = "-87.629799";
-
-//     const fetchWeather = async () => {
-//         const response = await fetch(`https://api.weather.gov/points/${latitude},${longitude}`);
-//         const data = await response.json();
-//         setweatherData(data)
-//     };
-
-//     useEffect(() => {
-//         fetchWeather()
-//     }, []);
-
-//     return(weatherData);
-// }
+import axios from "axios";
 
 class infoBar extends Component {
-    CurrWeather = () => {
-        //current weatherdata returns a grid. not what is needed
-        const [weatherData, setweatherData] = useState(null);
-        const latitude = "41.878113";
-        const longitude = "-87.629799";
-    
-        const fetchWeather = async () => {
-            const response = await fetch(`https://api.weather.gov/points/${latitude},${longitude}`);
-            const data = await response.json();
-            setweatherData(data)
+    constructor(props) {
+        super(props);
+        this.state = {
+          weatherData: null,
+          error: null
         };
+      }
     
-        useEffect(() => {
-            fetchWeather()
-        }, []);
+      componentDidMount() {
+        this.fetchWeather();
+      }
     
-    }
+      fetchWeather = async () => {
+        try {
+          // Get current conditions
+          const response1 = await axios.get(
+            'https://api.weather.gov/points/41.8781,-87.6298',
+            {
+              headers: {
+                'User-Agent': 'MyChicagoWeatherApp'
+              }
+            }
+          );
+    
+          const forecastUrl = response1.data.properties.forecast;
+          
+          // Get forecast data
+          const response2 = await axios.get(forecastUrl);
+          
+          this.setState({
+            weatherData: {
+              location: response1.data.properties.location,
+              forecast: response2.data
+            }
+          });
+        } catch (err) {
+          this.setState({ error: err.message });
+        }
+      }
+    
+    //   <h2>Current Weather in Chicago</h2>
+    //   <p>Temperature: {weatherData.location.currentTemp}°F</p>
+    //   <p>Conditions: {weatherData.location.conditions}</p>
 
     render() {
         return(
@@ -53,7 +60,7 @@ class infoBar extends Component {
                     </span>
                     |
                     <span>
-                        Weather: 
+                        Weather: {weatherData.location.currentTemp}°F
                     </span>
                 </div>
             </div>
