@@ -1,70 +1,44 @@
 import React, { Component, useState, useEffect } from "react";
 import axios from "axios";
 
-class infoBar extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-          weatherData: null,
-          error: null
-        };
-      }
-    
-      componentDidMount() {
-        this.fetchWeather();
-      }
-    
-      fetchWeather = async () => {
-        try {
-          // Get current conditions
-          const response1 = await axios.get(
-            'https://api.weather.gov/points/41.8781,-87.6298',
-            {
-              headers: {
-                'User-Agent': 'MyChicagoWeatherApp'
-              }
-            }
-          );
-    
-          const forecastUrl = response1.data.properties.forecast;
-          
-          // Get forecast data
-          const response2 = await axios.get(forecastUrl);
-          
-          this.setState({
-            weatherData: {
-              location: response1.data.properties.location,
-              forecast: response2.data
-            }
-          });
-        } catch (err) {
-          this.setState({ error: err.message });
-        }
-      }
-    
-    //   <h2>Current Weather in Chicago</h2>
-    //   <p>Temperature: {weatherData.location.currentTemp}°F</p>
-    //   <p>Conditions: {weatherData.location.conditions}</p>
+// class infoBar extends React.Component {
 
-    render() {
-        return(
-            <div className="topblack row" >
-                <div className="col-md-7">
-                    <span>
-                        +1312 243 5977  
-                    </span>
-                    |
-                    <span>
-                        <i className="fa-clock-o"/>
-                        Mon - Sun 7:00 am - 8:00 pm
-                    </span>
-                    |
-                    <span>
-                        Weather: {weatherData.location.currentTemp}°F
-                    </span>
-                </div>
-            </div>
-    )}
+
+// {/* <div className="topblack row" >
+//   <div className="col-md-7">
+//       <span>
+//           +1312 243 5977  
+//       </span>
+//       |
+//       <span>
+//           <i className="fa-clock-o"/>
+//           Mon - Sun 7:00 am - 8:00 pm
+//       </span>
+//       |
+//       <span>
+//           Weather: {this.state.weatherData[0]}°F
+//       </span>
+//   </div>
+// </div> */}
+
+function infoBar() {
+  const [temp, setTemp] = useState(null);
+
+  useEffect(() => {
+    fetch('https://api.weather.gov/gridpoint/TWLX/CHI/123')
+      .then(res => res.json())
+      .then(data => {
+        const forecastUrl = data.properties.forecast;
+        fetch(forecastUrl)
+          .then(res => res.json())
+          .then(data => setTemp(data.properties.periods[0].temperature));
+      })
+      .catch(error => console.error('Error:', error));
+  }, []);
+
+  if (!temp) return <div>Loading...</div>;
+
+  return <div>Current temperature in Chicago: {temp}°C</div>;
 }
 
 export default infoBar;
