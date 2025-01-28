@@ -4,8 +4,8 @@ import axios from "axios";
 // class infoBar extends React.Component {
 
 
-// {/* <div className="topblack row" >
-//   <div className="col-md-7">
+//<div className="topblack row" >
+//    <div className="col-md-7">
 //       <span>
 //           +1312 243 5977  
 //       </span>
@@ -18,8 +18,8 @@ import axios from "axios";
 //       <span>
 //           Weather: {this.state.weatherData[0]}°F
 //       </span>
-//   </div>
-// </div> */}
+//    </div>
+//  </div>
 
 function infoBar() {
   const [temp, setTemp] = useState(null);
@@ -38,7 +38,24 @@ function infoBar() {
 
   if (!temp) return <div>Loading...</div>;
 
-  return <div>Current temperature in Chicago: {temp}°C</div>;
+  // return <div>Current temperature in Chicago: {temp}°C</div>;
+
+return <div className="topblack row" >
+          <div className="col-md-7">
+              <span>
+                  +1312 243 5977  
+              </span>
+              |
+              <span>
+                  <i className="fa-clock-o"/>
+                  Mon - Sun 7:00 am - 8:00 pm
+              </span>
+              |
+              <span>
+                  Weather: {temp}°F
+              </span>
+          </div>
+        </div>
 }
 
 export default infoBar;
