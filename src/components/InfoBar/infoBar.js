@@ -1,7 +1,10 @@
 import React, { Component, useState, useEffect } from "react";
 import axios from "axios";
 
-// class infoBar extends React.Component {
+//https://open-meteo.com/en/docs#latitude=41.85&longitude=-87.65&current=temperature_2m&minutely_15=&hourly=temperature_2m&daily=&temperature_unit=fahrenheit&models=
+//open meteo a better api
+
+// class InfoBar extends React.Component {
 
 
 //<div className="topblack row" >
@@ -21,7 +24,7 @@ import axios from "axios";
 //    </div>
 //  </div>
 
-function infoBar() {
+function InfoBar() {
   const [temp, setTemp] = useState(null);
 
   useEffect(() => {
@@ -58,4 +61,4 @@ return <div className="topblack row" >
         </div>
 }
 
-export default infoBar;
+export default InfoBar;
