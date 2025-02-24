@@ -1,11 +1,5 @@
 import React, { Component, useState, useEffect } from "react";
-import axios from "axios";
-
-//https://open-meteo.com/en/docs#latitude=41.85&longitude=-87.65&current=temperature_2m&minutely_15=&hourly=temperature_2m&daily=&temperature_unit=fahrenheit&models=
-//open meteo a better api
-
-// class InfoBar extends React.Component {
-
+import { fetchWeatherApi } from 'openmeteo';
 
 //<div className="topblack row" >
 //    <div className="col-md-7">
@@ -24,24 +18,44 @@ import axios from "axios";
 //    </div>
 //  </div>
 
+const params = {
+	"latitude": 41.85,
+	"longitude": -87.65,
+	"current": ["temperature_2m", "relative_humidity_2m"],
+	"temperature_unit": "fahrenheit",
+	"forecast_days": 1
+};
+const url = "https://api.open-meteo.com/v1/forecast";
+const responses = await fetchWeatherApi(url, params);
+
+// Helper function to form time ranges
+const range = (start, stop, step) =>
+	Array.from({ length: (stop - start) / step }, (_, i) => start + i * step);
+
+// Process first location. Add a for-loop for multiple locations or weather models
+const response = responses[0];
+
+// Attributes for timezone and location
+const utcOffsetSeconds = response.utcOffsetSeconds();
+const timezone = response.timezone();
+const timezoneAbbreviation = response.timezoneAbbreviation();
+const latitude = response.latitude();
+const longitude = response.longitude();
+
+const current = response.current()!;
+
+// Note: The order of weather variables in the URL query and the indices below need to match!
+const weatherData = {
+
+	current: {
+		time: new Date((Number(current.time()) + utcOffsetSeconds) * 1000),
+		temperature2m: current.variables(0)!.value(),
+		relativeHumidity2m: current.variables(1)!.value(),
+	},
+};
+
 function InfoBar() {
-  const [temp, setTemp] = useState(null);
 
-  useEffect(() => {
-    fetch('https://api.weather.gov/gridpoint/TWLX/CHI/123')
-      .then(res => res.json())
-      .then(data => {
-        const forecastUrl = data.properties.forecast;
-        fetch(forecastUrl)
-          .then(res => res.json())
-          .then(data => setTemp(data.properties.periods[0].temperature));
-      })
-      .catch(error => console.error('Error:', error));
-  }, []);
-
-  if (!temp) return <div>Loading...</div>;
-
-  // return <div>Current temperature in Chicago: {temp}°C</div>;
 
 return <div className="topblack row" >
           <div className="col-md-7">
