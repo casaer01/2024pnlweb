@@ -42,15 +42,15 @@ const timezoneAbbreviation = response.timezoneAbbreviation();
 const latitude = response.latitude();
 const longitude = response.longitude();
 
-const current = response.current()!;
+const current = response.current();
 
 // Note: The order of weather variables in the URL query and the indices below need to match!
 const weatherData = {
 
 	current: {
 		time: new Date((Number(current.time()) + utcOffsetSeconds) * 1000),
-		temperature2m: current.variables(0)!.value(),
-		relativeHumidity2m: current.variables(1)!.value(),
+		temperature2m: current.variables(0).value(),
+		relativeHumidity2m: current.variables(1).value(),
 	},
 };
 
