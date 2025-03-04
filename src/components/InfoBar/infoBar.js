@@ -69,7 +69,7 @@ return <div className="topblack row" >
               </span>
               |
               <span>
-                  Weather: {temp}°F
+                  Weather: {weatherData.current.temperature2m}°F
               </span>
           </div>
         </div>
