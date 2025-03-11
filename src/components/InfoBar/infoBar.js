@@ -50,9 +50,9 @@ return <div className="topblack row" >
                   <i className="fa-clock-o"/>
                   Mon - Sun 7:00 am - 8:00 pm
               </span>
-              |
+              | 
               <span>
-                  Weather: {weatherData.current.temperature2m}°F
+                   Weather: {Math.trunc(weatherData.current.temperature2m)}°F
               </span>
           </div>
         </div>
