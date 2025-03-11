@@ -1,23 +1,6 @@
 import React, { Component, useState, useEffect } from "react";
 import { fetchWeatherApi } from 'openmeteo';
 
-//<div className="topblack row" >
-//    <div className="col-md-7">
-//       <span>
-//           +1312 243 5977  
-//       </span>
-//       |
-//       <span>
-//           <i className="fa-clock-o"/>
-//           Mon - Sun 7:00 am - 8:00 pm
-//       </span>
-//       |
-//       <span>
-//           Weather: {this.state.weatherData[0]}°F
-//       </span>
-//    </div>
-//  </div>
-
 const params = {
 	"latitude": 41.85,
 	"longitude": -87.65,
