@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import cookie from '../../images/Cookie_MandM.jpg'
 import './menuRegular.css';
 
 export class menuRegular extends Component {
@@ -6,8 +7,21 @@ export class menuRegular extends Component {
     return (
       <div className="container-fluid menuBackground">
 
+        <div className='row'>
+
+          <div className='cardOuter'>
+            <div className='cardHead'>
+              <h1>bread</h1>
+            </div>
+            <div className='cardDesc'>
+              <p>Infomation about bread</p>
+              </div>
+          </div>
+
+        </div>
+
         <div className="row" >
-          <div className="card col-sm">
+          <div className="card col-sm" style={{ width: '18rem' }}>
             <img src='' alt='mexican sweet bread concha'></img>
             <div className='card-body'>
               <h2 className='card-title' >Concha</h2>
@@ -93,35 +107,6 @@ export class menuRegular extends Component {
               <p class="card-text">Delicious sweet dough that has a baked outside and has fruit filling inside of the bread. Raspberry, pineapple, apple are one of possible filling flavors.</p>
             </div>
           </div>
-
-        </div>
-
-        <div className="row">
-
-          <div class="card col-sm">
-            <img src="..." class="card-img-top" alt="..."/>
-            <div class="card-body">
-              <h3 class="card-title">Bread Title</h3>
-              <p class="card-text">Bread Descrition.</p>
-            </div>
-          </div>
-
-          <div class="card col-sm">
-            <img src="..." class="card-img-top" alt="..."/>
-            <div class="card-body">
-              <h3 class="card-title">Bread Title</h3>
-              <p class="card-text">Bread Descrition.</p>
-            </div>
-          </div>
-
-          <div class="card col-sm">
-            <img src="..." class="card-img-top" alt="..."/>
-            <div class="card-body">
-              <h3 class="card-title">Bread Title</h3>
-              <p class="card-text">Bread Descrition.</p>
-            </div>
-          </div>
-
 
         </div>
       </div>

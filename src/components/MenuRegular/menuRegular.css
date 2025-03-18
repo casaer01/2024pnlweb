@@ -11,6 +11,16 @@
     color: white;
 }
 
+.cardOuter{
+
+  border-radius: 25px;
+  border: 50px solid aqua;
+}
+.cardHead{
+  border: 1px solid aqua;
+  border-radius: 25px;
+  text-align: center;
+}
 
 
 .card {
