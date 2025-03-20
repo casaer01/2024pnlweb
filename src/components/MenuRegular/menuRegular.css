@@ -11,17 +11,28 @@
     color: white;
 }
 
+.cardMain{
+  padding: 50px;
+  background-color: white;
+  color: black;
+}
+
 .cardOuter{
-
-  border-radius: 25px;
-  border: 50px solid aqua;
+  background-color: #5d0505;
+  border: 1vmin solid rgb(0, 0, 0);
 }
+
 .cardHead{
-  border: 1px solid aqua;
-  border-radius: 25px;
-  text-align: center;
+  color: white;
+  margin: 0%;
+  padding: 2%;
 }
 
+.cardDesc > p {
+  padding: 2%;
+  margin: 0%;
+  color: white;
+}
 
 .card {
     flex-direction: row;

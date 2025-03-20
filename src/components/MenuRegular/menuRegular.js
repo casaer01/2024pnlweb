@@ -9,14 +9,27 @@ export class menuRegular extends Component {
 
         <div className='row'>
 
-          <div className='cardOuter'>
-            <div className='cardHead'>
-              <h1>bread</h1>
-            </div>
-            <div className='cardDesc'>
-              <p>Infomation about bread</p>
+          <div className='col-sm cardMain'>
+
+            <div className='cardOuter'>
+              <div className='cardHead'>
+                <h1>bread</h1>
               </div>
+              <div className='cardDesc'>
+                <p>Infomation about bread</p>
+              </div>
+            </div>
+
           </div>
+
+          <div className='col-sm'>
+            
+          </div>
+
+          <div className='col-sm'>
+            
+          </div>
+
 
         </div>
 
