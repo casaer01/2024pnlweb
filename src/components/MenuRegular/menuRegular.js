@@ -24,6 +24,7 @@ export class menuRegular extends Component {
           <div className='col-sm cardMain'>
             <div className='cardOuter'>
               <div className='cardHead'>
+                <img src={cookie} className='imgCard' alt='bread' />
                 <h1>bread</h1>
               </div>
               <div className='cardDesc'>

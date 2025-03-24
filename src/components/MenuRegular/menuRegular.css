@@ -16,17 +16,27 @@
   background-color: white;
   color: black;
   text-align: center;
+  transition: all .2s ease-in;
+
+}
+
+.cardMain:hover{
+  transition: all .2s ease-in;
 }
 
 .cardOuter{
   background-color: #5d0505;
-  border: 1vmin solid rgb(0, 0, 0);
+  border: .5vmin solid rgb(0, 0, 0);
 }
 
 .cardHead{
   color: white;
   margin: 0%;
   padding: 2%;
+}
+
+.imgCard{
+  max-width: 100%;
 }
 
 .cardDesc > p {
