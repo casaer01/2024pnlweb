@@ -21,8 +21,8 @@ export class menuRegular extends Component {
             </div>
           </div>
 
-          <div className='col-sm cardMain'>
-            <div className='cardOuter'>
+          <div className='col-sm cardMain holographic-container '>
+            <div className='cardOuter holographic-card'>
               <div className='cardHead'>
                 <img src={cookie} className='imgCard' alt='bread' />
                 <h1>bread</h1>
