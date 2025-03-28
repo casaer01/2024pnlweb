@@ -21,14 +21,14 @@ export class menuRegular extends Component {
             </div>
           </div>
 
-          <div className='col-sm cardMain holographic-container '>
-            <div className='cardOuter holographic-card'>
+          <div className='col-sm cardMain'>
+            <div className='cardOuter'>
               <div className='cardHead'>
                 <img src={cookie} className='imgCard' alt='bread' />
-                <h1>bread</h1>
+                <h1>Concha Trigo</h1>
               </div>
               <div className='cardDesc'>
-                <p>Infomation about bread</p>
+                <p>Traditional mexican pan dulce that uses wheat flour instead of white flour. A bread with more fiber and vitamins which is perfect for those wanting a healther option.</p>
               </div>
             </div>
           </div>
