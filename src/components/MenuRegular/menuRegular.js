@@ -36,10 +36,10 @@ export class menuRegular extends Component {
           <div className='col-sm cardMain'>
             <div className='cardOuter'>
               <div className='cardHead'>
-                <h1>bread</h1>
+                <h1>ManteConcha</h1>
               </div>
               <div className='cardDesc'>
-                <p>Infomation about bread</p>
+                <p>A mexican mix between cupcakes and mexican conchas. Instead of a regular muffen top a small concha is placed.</p>
               </div>
             </div>
           </div>
