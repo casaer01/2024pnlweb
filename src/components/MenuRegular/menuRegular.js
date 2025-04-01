@@ -56,14 +56,14 @@ export class menuRegular extends Component {
             </div>
           </div>
 
-          <div className="card col-sm">
-            <img src='' className="card-img-top" alt='hard shell soft inside bread'></img>
-            <div className='card-body'>
-              <h3 class="card-title">Bolillo</h3>
-              <p className='card-text' >
-                Simple mexican rolls that can be seen as a mexican's version of the french baguette. 
-                Crispy on the outside and soft on the inside these bolillos are used as a side for soups or can be cut and used for sandwiches.
-              </p>
+          <div className='col-sm cardMain'>
+            <div className='cardOuter'>
+              <div className='cardHead'>
+                <h1>Telera</h1>
+              </div>
+              <div className='cardDesc'>
+                <p>Mexican version of a white bread roll that is soft and fluffy in a oval shape. Telera can be used to make any range of sandwiches or can simply enjoyed with butter on it.</p>
+              </div>
             </div>
           </div>
 
