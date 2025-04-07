@@ -70,10 +70,9 @@ export class menuRegular extends Component {
           <div className="card col-sm">
             <img src='' alt='soft & fluffy bread'></img>
             <div className='card-body'>
-              <h3 className='card-title' >Telera</h3>
+              <h3 className='card-title' >Wheat Bolillo</h3>
               <p className='card-text' >
-                Mexican version of a white bread roll that is soft and fluffy in a oval shape. 
-                Telera can be used to make any range of sandwiches or can simply enjoyed with butter on it.
+                Same as the regular Bolillo but instead of white flour wheat is used for customers who enjoy the wheat version of bread.
               </p>
             </div>
           </div>
