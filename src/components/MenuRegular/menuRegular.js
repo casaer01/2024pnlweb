@@ -80,27 +80,33 @@ export class menuRegular extends Component {
 
         <div className="row">
 
-          <div class="card col-sm">
-            <img src="..." class="card-img-top" alt="fried tortilla dough"/>
-            <div class="card-body">
-              <h3 class="card-title">Buñuelos</h3>
-              <p class="card-text">Disc of fried dough that is covered in cinnamon sugar or can be topped in sryup. While this fried dough is popular to eat during the holidays it is enjoyed thoughout the year.</p>
+          <div className="card col-sm">
+            <img src='' alt='soft & fluffy bread'></img>
+            <div className='card-body'>
+              <h3 className='card-title' >Wheat Bolillo</h3>
+              <p className='card-text' >
+                Same as the regular Bolillo but instead of white flour wheat is used for customers who enjoy the wheat version of bread.
+              </p>
             </div>
           </div>
 
-          <div class="card col-sm">
-            <img src="..." class="card-img-top" alt="Fried U shaped dough"/>
-            <div class="card-body">
-              <h3 class="card-title">Orajas</h3>
-              <p class="card-text">These puff pastry cookies are sweet and crunchy treats with a coating of caramelized sugar. Orejas are perfect to have with a cup of coffee or alone as a pick-me-up.</p>
+          <div className="card col-sm">
+            <img src='' alt='soft & fluffy bread'></img>
+            <div className='card-body'>
+              <h3 className='card-title' >Wheat Bolillo</h3>
+              <p className='card-text' >
+                Same as the regular Bolillo but instead of white flour wheat is used for customers who enjoy the wheat version of bread.
+              </p>
             </div>
           </div>
 
-          <div class="card col-sm">
-            <img src="..." class="card-img-top" alt="half moon pastry with varity fillings"/>
-            <div class="card-body">
-              <h3 class="card-title">Empanada</h3>
-              <p class="card-text">Delicious sweet dough that has a baked outside and has fruit filling inside of the bread. Raspberry, pineapple, apple are one of possible filling flavors.</p>
+          <div className="card col-sm">
+            <img src='' alt='soft & fluffy bread'></img>
+            <div className='card-body'>
+              <h3 className='card-title' >Wheat Bolillo</h3>
+              <p className='card-text' >
+                Same as the regular Bolillo but instead of white flour wheat is used for customers who enjoy the wheat version of bread.
+              </p>
             </div>
           </div>
 
