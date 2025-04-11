@@ -93,7 +93,7 @@ export class menuRegular extends Component {
           <div className="card col-sm">
             <img src='' alt='soft & fluffy bread'></img>
             <div className='card-body'>
-              <h3 className='card-title' >Wheat Bolillo</h3>
+              <h3 className='card-title' >Cemas</h3>
               <p className='card-text' >
                 Same as the regular Bolillo but instead of white flour wheat is used for customers who enjoy the wheat version of bread.
               </p>
@@ -103,7 +103,7 @@ export class menuRegular extends Component {
           <div className="card col-sm">
             <img src='' alt='soft & fluffy bread'></img>
             <div className='card-body'>
-              <h3 className='card-title' >Wheat Bolillo</h3>
+              <h3 className='card-title' >Cemas Trigo</h3>
               <p className='card-text' >
                 Same as the regular Bolillo but instead of white flour wheat is used for customers who enjoy the wheat version of bread.
               </p>
