@@ -95,7 +95,7 @@ export class menuRegular extends Component {
             <div className='card-body'>
               <h3 className='card-title' >Cemas</h3>
               <p className='card-text' >
-                Same as the regular Bolillo but instead of white flour wheat is used for customers who enjoy the wheat version of bread.
+                Round shape soft bread that can be used for sandwiches and burgers.
               </p>
             </div>
           </div>
@@ -105,7 +105,7 @@ export class menuRegular extends Component {
             <div className='card-body'>
               <h3 className='card-title' >Cemas Trigo</h3>
               <p className='card-text' >
-                Same as the regular Bolillo but instead of white flour wheat is used for customers who enjoy the wheat version of bread.
+                Similar to the regular cemas but using wheat flour to make the bread.
               </p>
             </div>
           </div>
