@@ -117,9 +117,9 @@ export class menuRegular extends Component {
           <div className="card col-sm">
             <img src='' alt='soft & fluffy bread'></img>
             <div className='card-body'>
-              <h3 className='card-title' >Orajas</h3>
+              <h3 className='card-title' >Donuts</h3>
               <p className='card-text' >
-                A fried golden crunchy outside covered in sugar while having a soft and warm inside. It is named due to its similar look of ears.
+                Craving something sweet? Our bakery serves up mouthwatering donuts in chocolate, vanilla, or sprinkles. Stop by for a treat that hits the spot!
               </p>
             </div>
           </div>
@@ -127,7 +127,7 @@ export class menuRegular extends Component {
           <div className="card col-sm">
             <img src='' alt='soft & fluffy bread'></img>
             <div className='card-body'>
-              <h3 className='card-title' >Cemas</h3>
+              <h3 className='card-title' > </h3>
               <p className='card-text' >
                 Round shape soft bread that can be used for sandwiches and burgers.
               </p>
@@ -137,7 +137,7 @@ export class menuRegular extends Component {
           <div className="card col-sm">
             <img src='' alt='soft & fluffy bread'></img>
             <div className='card-body'>
-              <h3 className='card-title' >Cemas Trigo</h3>
+              <h3 className='card-title' > </h3>
               <p className='card-text' >
                 Similar to the regular cemas but using wheat flour to make the bread.
               </p>
