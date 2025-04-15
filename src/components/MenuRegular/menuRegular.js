@@ -127,9 +127,9 @@ export class menuRegular extends Component {
           <div className="card col-sm">
             <img src='' alt='soft & fluffy bread'></img>
             <div className='card-body'>
-              <h3 className='card-title' > </h3>
+              <h3 className='card-title' >Empanada de fruta</h3>
               <p className='card-text' >
-                Round shape soft bread that can be used for sandwiches and burgers.
+                Dive into our fruity empanada paradise! From classic to unique flavors, find your perfect sweet treat that’s sure to delight every bite taken.
               </p>
             </div>
           </div>
