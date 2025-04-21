@@ -137,9 +137,9 @@ export class menuRegular extends Component {
           <div className="card col-sm">
             <img src='' alt='soft & fluffy bread'></img>
             <div className='card-body'>
-              <h3 className='card-title' >Bisquet </h3>
+              <h3 className='card-title' >Bisquet</h3>
               <p className='card-text' >
-                Similar to the regular cemas but using wheat flour to make the bread.
+                Mexican sweet biscuits that has nice crunchy top. A flaky and buttery sweet bread traditional enjoyed at the end of the day with a cup of coffee.
               </p>
             </div>
           </div>
