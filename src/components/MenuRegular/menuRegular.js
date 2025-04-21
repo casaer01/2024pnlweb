@@ -137,7 +137,7 @@ export class menuRegular extends Component {
           <div className="card col-sm">
             <img src='' alt='soft & fluffy bread'></img>
             <div className='card-body'>
-              <h3 className='card-title' > </h3>
+              <h3 className='card-title' >Bisquet </h3>
               <p className='card-text' >
                 Similar to the regular cemas but using wheat flour to make the bread.
               </p>
