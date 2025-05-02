@@ -14,7 +14,7 @@ export class Order extends Component{
                     <button class="learn-more"> Learn More
                     </button>
                     <Button>
-                        <a href="mailto:[email protected]?subject=Custom Order&body=Hi there">
+                        <a href="mailto:pnlpilsen@gmail.com?subject=Custom Order&body=Place custom order here.">
                         </a>
                     </Button>
                 </div>
