@@ -9,7 +9,7 @@
 /* button format */
 button {
     position: relative;
-    display: inline-block;
+    display: block;
     cursor: pointer;
     outline: none;
     border: 0;
