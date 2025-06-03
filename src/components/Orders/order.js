@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import "./order.css";
 import { Button } from 'bootstrap';
 
-export class Order extends Component{
+export class order extends Component{
     render() {
         return(
             <div>
@@ -13,13 +13,14 @@ export class Order extends Component{
 
                     <button class="learn-more"> Learn More
                     </button>
-                    <Button>
+                    {/* <Button>
                         <a href="mailto:pnlpilsen@gmail.com?subject=Custom Order&body=Place custom order here.">
                         </a>
-                    </Button>
+                    </Button> */}
                 </div>
             </div>
         )
     }
 }
-export default Order;
+
+export default order

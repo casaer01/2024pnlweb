@@ -17,7 +17,7 @@ import SlideShow from './components/SlideShow/Slideshow';
 import Footer from './components/Footer/footer';
 import AboutUs from './components/AboutPNL/AboutPNL';
 import MenuRegular from './components/MenuRegular/menuRegular';
-import Orders from './components/Orders/order';
+import Order from './components/Orders/order';
 
 // import reportWebVitals from './reportWebVitals';
 // import 'bootstrap/dist/css/bootstrap.css';
@@ -33,7 +33,7 @@ root.render(
     <AboutUs />
     <Footer />
     <MenuRegular />
-    <Orders />
+    <Order />
 </BrowserRouter>
 );
 
