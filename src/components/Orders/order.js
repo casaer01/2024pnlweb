@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
 import "./order.css";
-// import { Button } from 'bootstrap';
 
 export class order extends Component{
 
+
+
     emailto() {
+        var tag = document.getElementsByClassName("learn-more")
         window.location.href = "mailto:pnlpilsen@gmail.com?subject=Custom Order&body=Place custom order here.";
         // alert('button clicked');
     }
@@ -19,7 +21,7 @@ export class order extends Component{
 
                     
                     <button onClick={this.emailto} class="learn-more"> 
-                            Learn More
+                            Create Order
                     </button>
                     
                 </div>
