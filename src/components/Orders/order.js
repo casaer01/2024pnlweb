@@ -1,13 +1,16 @@
-import React, { Component } from 'react';
+import React, { Component, useState } from 'react';
 import "./order.css";
+
+const [isShown, setIsShown] = useState(false)
 
 export class order extends Component{
 
-
-
+    
+    
     emailto() {
-        var tag = document.getElementsByClassName("learn-more")
+        // var tag = document.getElementsByClassName("learn-more")
         window.location.href = "mailto:pnlpilsen@gmail.com?subject=Custom Order&body=Place custom order here.";
+        setIsShown(current => !current);
         // alert('button clicked');
     }
 
