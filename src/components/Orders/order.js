@@ -4,12 +4,16 @@ import "./order.css";
 
 
 export class order extends Component{
+
+    state = {
+        curr : ""
+    }
     
     emailto() {
-        const [isShown, setIsShown] = useState(false)
+        // const [isShown, setIsShown] = useState(false)
         // var tag = document.getElementsByClassName("learn-more")
         window.location.href = "mailto:pnlpilsen@gmail.com?subject=Custom Order&body=Place custom order here.";
-        setIsShown(current => !current);
+        // setIsShown(current => !current);
         // alert('button clicked');
     }
 
