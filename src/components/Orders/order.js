@@ -6,7 +6,13 @@ import "./order.css";
 export class order extends Component{
 
     state = {
-        curr : ""
+        curr : "Text here"
+    }
+
+    showtext = () => {
+        <h1>
+            {this.state.curr}
+        </h1>
     }
     
     emailto() {
