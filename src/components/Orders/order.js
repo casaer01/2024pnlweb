@@ -1,7 +1,7 @@
 import React, { Component, useState } from 'react';
 import "./order.css";
 
-
+// https://www.digitalocean.com/community/tutorials/five-ways-to-convert-react-class-components-to-functional-components-with-react-hooks#step-1-understanding-a-class-without-state-or-lifecycle-methods
 
 export class order extends Component{
 
