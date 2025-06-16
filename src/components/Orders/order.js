@@ -30,7 +30,9 @@ export class order extends Component{
                     <p>Our authentic panaderia takes in custom orders needed by our customers. Do you need a certain amount of conchas, cookies, or slices of cakes, then we can help you fulfill the order for any special event. We also do delivery when needed.</p>
                     <p>We can be contacted by phone or email</p>
 
-                    <button onClick={() => {navigator.clipboard.writeText(this.state.textToCopy)}} ></button>
+                    <button onClick={() => {navigator.clipboard.writeText(this.state.textToCopy)}} >
+                        click to copy email pnlpilsen@gmail.com
+                    </button>
 
                     
                     <button onClick={this.emailto} class="learn-more"> 
