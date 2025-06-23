@@ -6,13 +6,12 @@ import "./order.css";
 export class order extends Component{
 
     state = {
-        curr : "Text here",
         textToCopy : "pnlpilsen@gmail.com"
     }
 
     showtext = () => {
         <h1>
-            {this.state.curr}
+            {this.state.textToCopy}
         </h1>
     }
     
