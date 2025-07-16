@@ -105,7 +105,7 @@ export class menuRegular extends Component {
             <div className='card-body'>
               <h3 className='card-title' >Cemas Trigo</h3>
               <p className='card-text' >
-                Similar to the regular cemas but using wheat flour to make the bread.
+                Similar to the regular cemas but using wheat flour to make the bread. Cemas de trigo (wheat) is also sold alongside with the regular version. 
               </p>
             </div>
           </div>
