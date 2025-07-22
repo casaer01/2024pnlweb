@@ -153,7 +153,7 @@ export class menuRegular extends Component {
             <div className='card-body'>
               <h3 className='card-title' >Marranito</h3>
               <p className='card-text' >
-                Craving something sweet? Our bakery serves up mouthwatering donuts in chocolate, vanilla, or sprinkles. Stop by for a treat that hits the spot!
+                Mexican Gingerbread pigs are a sweet bread commonly eaten with a glass of milk or coffee.
               </p>
             </div>
           </div>
