@@ -163,7 +163,7 @@ export class menuRegular extends Component {
             <div className='card-body'>
               <h3 className='card-title' >Churro</h3>
               <p className='card-text' >
-                Dive into our fruity empanada paradise! From classic to unique flavors, find your perfect sweet treat that’s sure to delight every bite taken.
+                Famous mexican bread with a sweet flavor with a crispy outside while a soft and fluffy inside coated in cinnamon sugar.
               </p>
             </div>
           </div>
