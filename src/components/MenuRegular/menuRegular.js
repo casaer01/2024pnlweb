@@ -151,7 +151,7 @@ export class menuRegular extends Component {
           <div className="card col-sm">
             <img src='' alt='soft & fluffy bread'></img>
             <div className='card-body'>
-              <h3 className='card-title' >Donuts</h3>
+              <h3 className='card-title' >Marranito</h3>
               <p className='card-text' >
                 Craving something sweet? Our bakery serves up mouthwatering donuts in chocolate, vanilla, or sprinkles. Stop by for a treat that hits the spot!
               </p>
@@ -161,7 +161,7 @@ export class menuRegular extends Component {
           <div className="card col-sm">
             <img src='' alt='soft & fluffy bread'></img>
             <div className='card-body'>
-              <h3 className='card-title' >Empanada de fruta</h3>
+              <h3 className='card-title' >Churro</h3>
               <p className='card-text' >
                 Dive into our fruity empanada paradise! From classic to unique flavors, find your perfect sweet treat that’s sure to delight every bite taken.
               </p>
@@ -171,7 +171,7 @@ export class menuRegular extends Component {
           <div className="card col-sm">
             <img src='' alt='soft & fluffy bread'></img>
             <div className='card-body'>
-              <h3 className='card-title' >Bisquet</h3>
+              <h3 className='card-title' ></h3>
               <p className='card-text' >
                 Mexican sweet biscuits that has nice crunchy top. A flaky and buttery sweet bread traditional enjoyed at the end of the day with a cup of coffee.
               </p>
