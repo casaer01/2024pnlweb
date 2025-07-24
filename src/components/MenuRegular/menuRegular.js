@@ -171,7 +171,7 @@ export class menuRegular extends Component {
           <div className="card col-sm">
             <img src='' alt='soft & fluffy bread'></img>
             <div className='card-body'>
-              <h3 className='card-title' ></h3>
+              <h3 className='card-title' >Pineapple upside-down cupcake</h3>
               <p className='card-text' >
                 Mexican sweet biscuits that has nice crunchy top. A flaky and buttery sweet bread traditional enjoyed at the end of the day with a cup of coffee.
               </p>
