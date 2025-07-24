@@ -173,7 +173,42 @@ export class menuRegular extends Component {
             <div className='card-body'>
               <h3 className='card-title' >Pineapple upside-down cupcake</h3>
               <p className='card-text' >
-                Mexican sweet biscuits that has nice crunchy top. A flaky and buttery sweet bread traditional enjoyed at the end of the day with a cup of coffee.
+                Delightful mix of sweet and tangy flavors, featuring a moist vanilla cake base topped with caramelized pineapple and cherries. 
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+
+        <div className="row">
+
+          <div className="card col-sm">
+            <img src='' alt='soft & fluffy bread'></img>
+            <div className='card-body'>
+              <h3 className='card-title' ></h3>
+              <p className='card-text' >
+
+              </p>
+            </div>
+          </div>
+
+          <div className="card col-sm">
+            <img src='' alt='soft & fluffy bread'></img>
+            <div className='card-body'>
+              <h3 className='card-title' ></h3>
+              <p className='card-text' >
+                
+              </p>
+            </div>
+          </div>
+
+          <div className="card col-sm">
+            <img src='' alt='soft & fluffy bread'></img>
+            <div className='card-body'>
+              <h3 className='card-title' ></h3>
+              <p className='card-text' >
+                 
               </p>
             </div>
           </div>
