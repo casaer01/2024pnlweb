@@ -174,7 +174,6 @@ export class menuRegular extends Component {
               <h3 className='card-title' >Pineapple upside-down cupcake</h3>
               <p className='card-text' >
                 Delightful mix of sweet and tangy flavors, featuring a moist vanilla cake base topped with caramelized pineapple and cherries. 
-<<<<<<< HEAD
               </p>
             </div>
           </div>
@@ -210,8 +209,6 @@ export class menuRegular extends Component {
               <h3 className='card-title' ></h3>
               <p className='card-text' >
                  
-=======
->>>>>>> dcd1a96ee8f0f0b85ee5880a615c7edf22a27943
               </p>
             </div>
           </div>
