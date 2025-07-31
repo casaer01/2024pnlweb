@@ -11,13 +11,21 @@ Empanada de fruta - Delicious sweet dough that has a baked outside and has fruit
 Bisquet - Mexican sweet biscuits that has nice crunchy top. A flaky and buttery sweet bread traditional enjoyed at the end of the day with a cup of coffee.
 Marranito - Cinnamon and piloncillo flavored cookie that is shaped as a pig.
 
-Upsidedown pineapple cupcake
 
 chamucos
 cuadro pasteito Blanco & rosa
 cuernos agua
 cuernos Mantequilla
 Cuerno Nutella
+Ojarascas
+Orejas 
+Panque
+pudin
+?Taquitos ?
+?Taquitos chocolate?
+Tornillos 
+Tortuga
+Volteado
 
 Herraduras
 magdalenas
@@ -30,8 +38,9 @@ Cupcakes =
 
 Nino envueltos
 = ?Rosca Azucar?
+Ojos nuez o Azucar
 
-Cookies =====
+Cookies ================================
 
 Granjea
 Mantequilla
@@ -45,6 +54,7 @@ Polvoron =
 Galleta corazon
 Galleta nuez
 Galleta Almendra
+Ojarascas cajita
 
 Galleta minis ==
 mini Sandiamini corazones
