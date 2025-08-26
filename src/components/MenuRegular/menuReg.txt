@@ -51,10 +51,10 @@ Polvoron =
     Payaso - Pan Payaso is a vibrant Mexican sweet bread known for its soft, fluffy texture and colorful sugary topping that delights both kids and adults. Perfect for parties or a sweet snack, this festive pan dulce brings a burst of flavor and tradition to every bite.
     Tapabocas
 Galleta corazon - heart shaped cookie
-Galleta nuez - cookiewith nuts
-Galleta Almendra
+Galleta nuez - cookie topped with nuts
+Galleta Almendra - Cookie with almonds
 Ojarascas
-Ojarascas cajita
+Ojarascas cajita - mexicna shortbread cookies
 
 Galleta minis ==
 mini Sandiamini corazones
