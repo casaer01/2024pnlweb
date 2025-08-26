@@ -50,8 +50,8 @@ Polvoron =
     Polvoron Colores - Delightful variation of the traditional Mexican shortbread cookie, crafted into a fun, clown-inspired tri‑colored design. Crispy edges with a tender crumbly inside with a gentle vanilla taste.
     Payaso - Pan Payaso is a vibrant Mexican sweet bread known for its soft, fluffy texture and colorful sugary topping that delights both kids and adults. Perfect for parties or a sweet snack, this festive pan dulce brings a burst of flavor and tradition to every bite.
     Tapabocas
-Galleta corazon
-Galleta nuez
+Galleta corazon - heart shaped cookie
+Galleta nuez - cookiewith nuts
 Galleta Almendra
 Ojarascas
 Ojarascas cajita
