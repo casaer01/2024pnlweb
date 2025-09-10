@@ -149,7 +149,7 @@ export class menuRegular extends Component {
         <div className="row">
 
           <div className="card col-sm">
-            <img src='' alt='soft & fluffy bread'></img>
+            <img src='' alt='Marranito, mexican take of the Gingerbread man that is shaped into a pig.'></img>
             <div className='card-body'>
               <h3 className='card-title' >Marranito</h3>
               <p className='card-text' >
@@ -159,7 +159,7 @@ export class menuRegular extends Component {
           </div>
 
           <div className="card col-sm">
-            <img src='' alt='soft & fluffy bread'></img>
+            <img src='' alt='Churro, long, crispy, and covered in cinnamon sugar'></img>
             <div className='card-body'>
               <h3 className='card-title' >Churro</h3>
               <p className='card-text' >
@@ -169,7 +169,7 @@ export class menuRegular extends Component {
           </div>
 
           <div className="card col-sm">
-            <img src='' alt='soft & fluffy bread'></img>
+            <img src='' alt='Upside-down pineapple cupcake, moist and buttery with a cherry on top.'></img>
             <div className='card-body'>
               <h3 className='card-title' >Pineapple upside-down cupcake</h3>
               <p className='card-text' >
