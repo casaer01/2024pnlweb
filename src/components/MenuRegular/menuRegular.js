@@ -81,7 +81,7 @@ export class menuRegular extends Component {
         <div className="row">
 
           <div className="card col-sm">
-            <img src='' alt='Orajas that is crunchy and covered in sugar'></img>
+            <img src='' alt='Orajas that is crunchy and covered in sugar.'></img>
             <div className='card-body'>
               <h3 className='card-title' >Orajas</h3>
               <p className='card-text' >
@@ -115,7 +115,7 @@ export class menuRegular extends Component {
         <div className="row">
 
           <div className="card col-sm">
-            <img src='' alt='soft & fluffy bread'></img>
+            <img src='' alt='Donuts, circular bread with a hole in the middle and comes in chocolate, sugar, vanilla, or plain.'></img>
             <div className='card-body'>
               <h3 className='card-title' >Donuts</h3>
               <p className='card-text' >
@@ -125,7 +125,7 @@ export class menuRegular extends Component {
           </div>
 
           <div className="card col-sm">
-            <img src='' alt='soft & fluffy bread'></img>
+            <img src='' alt='Semi circle shaped bread with crunchy outside and filling on the inside similar to a pie.'></img>
             <div className='card-body'>
               <h3 className='card-title' >Empanada de fruta</h3>
               <p className='card-text' >
@@ -135,7 +135,7 @@ export class menuRegular extends Component {
           </div>
 
           <div className="card col-sm">
-            <img src='' alt='soft & fluffy bread'></img>
+            <img src='' alt='Bisquet, a bread roll that is mildy sweet with a golden top.'></img>
             <div className='card-body'>
               <h3 className='card-title' >Bisquet</h3>
               <p className='card-text' >
