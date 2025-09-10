@@ -81,7 +81,7 @@ export class menuRegular extends Component {
         <div className="row">
 
           <div className="card col-sm">
-            <img src='' alt='soft & fluffy bread'></img>
+            <img src='' alt='Orajas that is crunchy and covered in sugar'></img>
             <div className='card-body'>
               <h3 className='card-title' >Orajas</h3>
               <p className='card-text' >
@@ -91,7 +91,7 @@ export class menuRegular extends Component {
           </div>
 
           <div className="card col-sm">
-            <img src='' alt='soft & fluffy bread'></img>
+            <img src='' alt='Cemas, circular and round top which can be treated as a bun for sandwiches.'></img>
             <div className='card-body'>
               <h3 className='card-title' >Cemas</h3>
               <p className='card-text' >
@@ -101,7 +101,7 @@ export class menuRegular extends Component {
           </div>
 
           <div className="card col-sm">
-            <img src='' alt='soft & fluffy bread'></img>
+            <img src='' alt='Cemas Trigo, a wheat version of the orginal mexican buns.'></img>
             <div className='card-body'>
               <h3 className='card-title' >Cemas Trigo</h3>
               <p className='card-text' >
@@ -173,7 +173,7 @@ export class menuRegular extends Component {
             <div className='card-body'>
               <h3 className='card-title' >Pineapple upside-down cupcake</h3>
               <p className='card-text' >
-                Delightful mix of sweet and tangy flavors, featuring a moist vanilla cake base topped with caramelized pineapple and cherries. 
+                a moist, buttery cake topped with caramelized pineapple and cherries, offering a perfect balance of sweet and tangy flavors. Its soft texture and rich caramel glaze make it a tropical dessert favorite in Latin American kitchens. 
               </p>
             </div>
           </div>
