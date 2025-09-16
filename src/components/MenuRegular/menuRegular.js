@@ -184,17 +184,42 @@ export class menuRegular extends Component {
         <div className="row">
 
           <div className="card col-sm">
-            <img src='' alt='soft & fluffy bread'></img>
+            <img src='' alt='Square mini-cakes with frosting on top with sprinkles.'></img>
             <div className='card-body'>
-              <h3 className='card-title' ></h3>
+              <h3 className='card-title' >Cuadro Pasteito</h3>
               <p className='card-text' >
-
+                Squares pieces of a much larger size bread. Each piece featuring a mild sweetness and buttery flavor, complemented by a light, fluffy texture and a slight crunchy glaze. Enjoy eating this treat more with coffee or milk.
               </p>
             </div>
           </div>
 
           <div className="card col-sm">
-            <img src='' alt='soft & fluffy bread'></img>
+            <img src='' alt='U-shape pan with butter on top and soft on the inside.'></img>
+            <div className='card-body'>
+              <h3 className='card-title' >Cuernos de Agua</h3>
+              <p className='card-text' >
+                Taste the simplicity of Cuernos de agua! Its slightly crisp exterior and soft, comforting inside make it a perfect treat for any occasion.
+              </p>
+            </div>
+          </div>
+
+          <div className="card col-sm">
+            <img src='' alt='U-shape pan that soft on the inside and outside.'></img>
+            <div className='card-body'>
+              <h3 className='card-title' >Cuernos Mantequilla</h3>
+              <p className='card-text' >
+                Shaped like a croissant but lighter with a glaze outer layer giving it a outer shine and is completed with a touch of sweetness. This can be enjoyed with a hot cup of coffee or cappuccino or putting a spread on like jam or butter.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+
+        <div className="row">
+
+          <div className="card col-sm">
+            <img src='' alt=''></img>
             <div className='card-body'>
               <h3 className='card-title' ></h3>
               <p className='card-text' >
@@ -204,11 +229,91 @@ export class menuRegular extends Component {
           </div>
 
           <div className="card col-sm">
-            <img src='' alt='soft & fluffy bread'></img>
+            <img src='' alt=''></img>
             <div className='card-body'>
               <h3 className='card-title' ></h3>
               <p className='card-text' >
-                 
+                
+              </p>
+            </div>
+          </div>
+
+          <div className="card col-sm">
+            <img src='' alt=''></img>
+            <div className='card-body'>
+              <h3 className='card-title' ></h3>
+              <p className='card-text' >
+                
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+
+        <div className="row">
+
+          <div className="card col-sm">
+            <img src='' alt=''></img>
+            <div className='card-body'>
+              <h3 className='card-title' ></h3>
+              <p className='card-text' >
+                
+              </p>
+            </div>
+          </div>
+
+          <div className="card col-sm">
+            <img src='' alt=''></img>
+            <div className='card-body'>
+              <h3 className='card-title' ></h3>
+              <p className='card-text' >
+                
+              </p>
+            </div>
+          </div>
+
+          <div className="card col-sm">
+            <img src='' alt=''></img>
+            <div className='card-body'>
+              <h3 className='card-title' ></h3>
+              <p className='card-text' >
+                
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+
+        <div className="row">
+
+          <div className="card col-sm">
+            <img src='' alt=''></img>
+            <div className='card-body'>
+              <h3 className='card-title' ></h3>
+              <p className='card-text' >
+                
+              </p>
+            </div>
+          </div>
+
+          <div className="card col-sm">
+            <img src='' alt=''></img>
+            <div className='card-body'>
+              <h3 className='card-title' ></h3>
+              <p className='card-text' >
+                
+              </p>
+            </div>
+          </div>
+
+          <div className="card col-sm">
+            <img src='' alt=''></img>
+            <div className='card-body'>
+              <h3 className='card-title' ></h3>
+              <p className='card-text' >
+                
               </p>
             </div>
           </div>
