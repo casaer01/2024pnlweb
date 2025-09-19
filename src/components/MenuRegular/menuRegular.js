@@ -321,6 +321,41 @@ export class menuRegular extends Component {
         </div>
 
 
+        <div className="row">
+
+          <div className="card col-sm">
+            <img src='' alt=''></img>
+            <div className='card-body'>
+              <h3 className='card-title' ></h3>
+              <p className='card-text' >
+                
+              </p>
+            </div>
+          </div>
+
+          <div className="card col-sm">
+            <img src='' alt=''></img>
+            <div className='card-body'>
+              <h3 className='card-title' ></h3>
+              <p className='card-text' >
+                
+              </p>
+            </div>
+          </div>
+
+          <div className="card col-sm">
+            <img src='' alt=''></img>
+            <div className='card-body'>
+              <h3 className='card-title' ></h3>
+              <p className='card-text' >
+                
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+
       </div>
     )
   }
