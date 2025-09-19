@@ -219,31 +219,31 @@ export class menuRegular extends Component {
         <div className="row">
 
           <div className="card col-sm">
-            <img src='' alt=''></img>
+            <img src='' alt='Soft and chewy croissant filled with chocolate.'></img>
             <div className='card-body'>
-              <h3 className='card-title' ></h3>
+              <h3 className='card-title' >Cuerno Nutella</h3>
               <p className='card-text' >
-                
+                Similar to a croissant it is soft and chewy on the inside and has a slight crunch on the outer layer, but with the added chocolate layer on the inside increasing it's sweetness.
               </p>
             </div>
           </div>
 
           <div className="card col-sm">
-            <img src='' alt=''></img>
+            <img src='' alt='Deep-fried puffy U-shaped bread'></img>
             <div className='card-body'>
-              <h3 className='card-title' ></h3>
+              <h3 className='card-title' >Orejas</h3>
               <p className='card-text' >
-                
+                Orejas are crisp, golden pastries with a rich, buttery flavor and a caramelized sugar coating that creates a perfect balance of sweetness and crunch. Each bite melts in your mouth with layers of light, flaky dough and a hint of toasted sugar that adds depth and warmth to the overall taste.
               </p>
             </div>
           </div>
 
           <div className="card col-sm">
-            <img src='' alt=''></img>
+            <img src='' alt='mexican pound cake shaped like square sponge cake'></img>
             <div className='card-body'>
-              <h3 className='card-title' ></h3>
+              <h3 className='card-title' >Panque</h3>
               <p className='card-text' >
-                
+                A mexican pound cake with a dense and tender inside like a sponge cake with a protective crumbling edge. The bread itself is sweet, buttery, and has a taste of vanilla.
               </p>
             </div>
           </div>
