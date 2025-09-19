@@ -229,7 +229,7 @@ export class menuRegular extends Component {
           </div>
 
           <div className="card col-sm">
-            <img src='' alt='Deep-fried puffy U-shaped bread'></img>
+            <img src='' alt='Deep-fried puffy U-shaped bread.'></img>
             <div className='card-body'>
               <h3 className='card-title' >Orejas</h3>
               <p className='card-text' >
@@ -239,7 +239,7 @@ export class menuRegular extends Component {
           </div>
 
           <div className="card col-sm">
-            <img src='' alt='mexican pound cake shaped like square sponge cake'></img>
+            <img src='' alt='mexican pound cake shaped like square sponge cake.'></img>
             <div className='card-body'>
               <h3 className='card-title' >Panque</h3>
               <p className='card-text' >
@@ -254,21 +254,21 @@ export class menuRegular extends Component {
         <div className="row">
 
           <div className="card col-sm">
-            <img src='' alt=''></img>
+            <img src='' alt='Rolled up pastery.'></img>
             <div className='card-body'>
-              <h3 className='card-title' ></h3>
+              <h3 className='card-title' >Taquitos</h3>
               <p className='card-text' >
-                
+                Rolled up sweet pastry that is sweet and buttery. Soft and fluffy on the inside while a chrunchy outside.
               </p>
             </div>
           </div>
 
           <div className="card col-sm">
-            <img src='' alt=''></img>
+            <img src='' alt='Rolled up pastery with chocolate filling.'></img>
             <div className='card-body'>
-              <h3 className='card-title' ></h3>
+              <h3 className='card-title' >Taquitos chocolate</h3>
               <p className='card-text' >
-                
+                Roller up mexican pastry that instead has a chocolate filling on the inside.
               </p>
             </div>
           </div>
