@@ -289,31 +289,31 @@ export class menuRegular extends Component {
         <div className="row">
 
           <div className="card col-sm">
-            <img src='' alt=''></img>
+            <img src='' alt='Turtle shaped bread with a sugary top.'></img>
             <div className='card-body'>
-              <h3 className='card-title' ></h3>
+              <h3 className='card-title' >Tortuga</h3>
               <p className='card-text' >
-                
+                It is shaped like a turtle, the main body is round with a topping similar to a concha. The inside is soft and fluffy while having a slight firm and crumbly topping.
               </p>
             </div>
           </div>
 
           <div className="card col-sm">
-            <img src='' alt=''></img>
+            <img src='' alt='upside-down cupcake with pineapple slices on top.'></img>
             <div className='card-body'>
-              <h3 className='card-title' ></h3>
+              <h3 className='card-title' >Volteado de Piña</h3>
               <p className='card-text' >
-                
+                Volteado de Piña is a moist, buttery cake topped with caramelized pineapple and cherries, offering a perfect balance of sweet and tangy flavors. Its soft texture and rich caramel glaze make it a tropical 
               </p>
             </div>
           </div>
 
           <div className="card col-sm">
-            <img src='' alt=''></img>
+            <img src='' alt='bread with mexican sugar on top that has another bread wrapping around it.'></img>
             <div className='card-body'>
-              <h3 className='card-title' ></h3>
+              <h3 className='card-title' >Herraduras</h3>
               <p className='card-text' >
-                
+                A concha where a crust is added to the edge making it look like a horseshoe surrounding it hence the mexican name. Herraduras are mildly sweet, with a delicate buttery or milky flavor.
               </p>
             </div>
           </div>
@@ -326,9 +326,9 @@ export class menuRegular extends Component {
           <div className="card col-sm">
             <img src='' alt=''></img>
             <div className='card-body'>
-              <h3 className='card-title' ></h3>
+              <h3 className='card-title' >Magdalenas</h3>
               <p className='card-text' >
-                
+                Spanish muffins that are soft and airy like a sponge cake. It is midly sweet and is lemon-scented giving them a bright, citrusy aroma and a slightly tangy finish.
               </p>
             </div>
           </div>

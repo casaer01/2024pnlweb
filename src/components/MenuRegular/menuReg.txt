@@ -23,10 +23,10 @@ pudin
 ?Taquitos - Rolled up sweet pastry that is sweet and buttery. Soft and fluffy on the inside while a chrunchy outside.
 ?Taquitos chocolate - Roller up mexican pastry that instead has a chocolate filling on the inside.
 Tornillos - A mildly sweet bread that is soft and fluffy on the inside and has crunchy outside. It is shaped as if the bread was twisted like a screw.
-Tortuga
+Tortuga - It is shaped like a turtle, the main body is round with a topping similar to a concha. The inside is soft and fluffy while having a slight firm and crumbly topping.
 Volteado de Piña - Volteado de Piña is a moist, buttery cake topped with caramelized pineapple and cherries, offering a perfect balance of sweet and tangy flavors. Its soft texture and rich caramel glaze make it a tropical dessert favorite in Latin American kitchens.
 
-Herraduras - A concha where a crust is added to the edge making it look like a concha. Herraduras are mildly sweet, with a delicate buttery or milky flavor.
+Herraduras - A concha where a crust is added to the edge making it look like a horseshoe surrounding it hence the mexican name. Herraduras are mildly sweet, with a delicate buttery or milky flavor.
 magdalenas - spanish muffins that are soft and airy like a sponge cake. It is midly sweet and is lemon-scented giving them a bright, citrusy aroma and a slightly tangy finish.
 Cupcakes =
     manitas queso
