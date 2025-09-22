@@ -274,11 +274,11 @@ export class menuRegular extends Component {
           </div>
 
           <div className="card col-sm">
-            <img src='' alt=''></img>
+            <img src='' alt='Long bread that is twisted with semi hard layer.'></img>
             <div className='card-body'>
-              <h3 className='card-title' ></h3>
+              <h3 className='card-title' >Tornillos</h3>
               <p className='card-text' >
-                
+                A mildly sweet bread that is soft and fluffy on the inside and has crunchy outside. It is shaped as if the bread was twisted like a screw.
               </p>
             </div>
           </div>
