@@ -344,11 +344,11 @@ export class menuRegular extends Component {
           </div>
 
           <div className="card col-sm">
-            <img src='' alt=''></img>
+            <img src='' alt='Ring covering bread making it look like an eye.'></img>
             <div className='card-body'>
-              <h3 className='card-title' ></h3>
+              <h3 className='card-title' >Ojos nuez o Azucar</h3>
               <p className='card-text' >
-                
+                Mexican sweet bread known to look like eyes hence the name "Ojos". The bread is soft and eggy with a slight sweet taste while the ring gives a bit of a crunch and crispy texture.
               </p>
             </div>
           </div>
