@@ -324,7 +324,7 @@ export class menuRegular extends Component {
         <div className="row">
 
           <div className="card col-sm">
-            <img src='' alt=''></img>
+            <img src='' alt='mexican muffin top with almonds bits.'></img>
             <div className='card-body'>
               <h3 className='card-title' >Magdalenas</h3>
               <p className='card-text' >
@@ -334,11 +334,11 @@ export class menuRegular extends Component {
           </div>
 
           <div className="card col-sm">
-            <img src='' alt=''></img>
+            <img src='' alt='Swirl bread with a pink outer layer and pink filling..'></img>
             <div className='card-body'>
-              <h3 className='card-title' ></h3>
+              <h3 className='card-title' >Nino envueltos</h3>
               <p className='card-text' >
-                
+                Niños Envueltos is a traditional Mexican sweet bread made with soft sponge cake rolled around fruity jam—usually strawberry—and coated in shredded coconut. This nostalgic Mexican pastry offers a perfect balance of sweetness and texture, making it a must-try treat for lovers of authentic pan dulce
               </p>
             </div>
           </div>
