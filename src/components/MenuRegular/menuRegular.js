@@ -45,25 +45,23 @@ export class menuRegular extends Component {
 
         <div className="row">
 
-          <div className='col-sm cardMain'>
-            <div className='cardOuter'>
-              <div className='cardHead'>
-                <h1>Bolillo</h1>
-              </div>
-              <div className='cardDesc'>
-                <p>Simple mexican rolls that can be seen as a mexican's version of the french baguette. Crispy on the outside and soft on the inside these bolillos are used as a side for soups or can be cut and used for sandwiches.</p>
-              </div>
+          <div className="card col-sm">
+            <img src='' alt='Classic white bread with harden outer crust.'></img>
+            <div className='card-body'>
+              <h3 className='card-title' >Bolillo</h3>
+              <p className='card-text' >
+                Simple mexican rolls that can be seen as a mexican's version of the french baguette. Crispy on the outside and soft on the inside these bolillos are used as a side for soups or can be cut and used for sandwiches.
+              </p>
             </div>
           </div>
 
-          <div className='col-sm cardMain'>
-            <div className='cardOuter'>
-              <div className='cardHead'>
-                <h1>Telera</h1>
-              </div>
-              <div className='cardDesc'>
-                <p>Mexican version of a white bread roll that is soft and fluffy in a oval shape. Telera can be used to make any range of sandwiches or can simply enjoyed with butter on it.</p>
-              </div>
+          <div className="card col-sm">
+            <img src='' alt='Mexican white bread with three bumps on top.'></img>
+            <div className='card-body'>
+              <h3 className='card-title' >Telera</h3>
+              <p className='card-text' >
+                Mexican version of a white bread roll that is soft and fluffy in a oval shape. Telera can be used to make any range of sandwiches or can simply enjoyed with butter on it.
+              </p>
             </div>
           </div>
 
