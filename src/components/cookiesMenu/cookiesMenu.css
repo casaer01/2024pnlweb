@@ -1,0 +1,6 @@
+.menuBackground{
+    background: #8d0505;
+    background: -webkit-linear-gradient(0deg, #8d0505 0%, #dc0000 50%, #8d0505 100%);
+    background: linear-gradient(0deg, #8d0505 0%, #dc0000 50%, #8d0505 100%);
+    color: white;
+}

@@ -18,6 +18,7 @@ import Footer from './components/Footer/footer';
 import AboutUs from './components/AboutPNL/AboutPNL';
 import MenuRegular from './components/MenuRegular/menuRegular';
 import Order from './components/Orders/order';
+import cookiesMenu from './components/cookiesMenu/cookiesMenu'
 
 // import reportWebVitals from './reportWebVitals';
 // import 'bootstrap/dist/css/bootstrap.css';
@@ -33,6 +34,7 @@ root.render(
     <AboutUs />
     <Footer />
     <MenuRegular />
+    <cookiesMenu />
     <Order />
 </BrowserRouter>
 );
