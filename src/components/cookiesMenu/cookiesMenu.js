@@ -79,6 +79,112 @@ export class cookiesMenu extends Component {
         <div className="row">
 
           <div className="card col-sm">
+            <img src='' alt='Three colors of cookies formed together to make a cookie triangle.'></img>
+            <div className='card-body'>
+              <h3 className='card-title' >Polvoron Colores</h3>
+              <p className='card-text' >
+                Delightful variation of the traditional Mexican shortbread cookie, crafted into a fun, clown-inspired tri‑colored design. Crispy edges with a tender crumbly inside with a gentle vanilla taste.
+              </p>
+            </div>
+          </div>
+
+          <div className="card col-sm">
+            <img src='' alt=''></img>
+            <div className='card-body'>
+              <h3 className='card-title' >Payaso</h3>
+              <p className='card-text' >
+                Pan Payaso is a vibrant Mexican sweet bread known for its soft, fluffy texture and colorful sugary topping that delights both kids and adults. Perfect for parties or a sweet snack, this festive pan dulce brings a burst of flavor and tradition to every bite.
+              </p>
+            </div>
+          </div>
+
+          <div className="card col-sm">
+            <img src='' alt=''></img>
+            <div className='card-body'>
+              <h3 className='card-title' >Galleta corazon</h3>
+              <p className='card-text' >
+
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+
+        <div className="row">
+
+          <div className="card col-sm">
+            <img src='' alt=''></img>
+            <div className='card-body'>
+              <h3 className='card-title' ></h3>
+              <p className='card-text' >
+
+              </p>
+            </div>
+          </div>
+
+          <div className="card col-sm">
+            <img src='' alt=''></img>
+            <div className='card-body'>
+              <h3 className='card-title' ></h3>
+              <p className='card-text' >
+
+              </p>
+            </div>
+          </div>
+
+          <div className="card col-sm">
+            <img src='' alt=''></img>
+            <div className='card-body'>
+              <h3 className='card-title' ></h3>
+              <p className='card-text' >
+
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+
+        <div className="row">
+
+          <div className="card col-sm">
+            <img src='' alt=''></img>
+            <div className='card-body'>
+              <h3 className='card-title' ></h3>
+              <p className='card-text' >
+
+              </p>
+            </div>
+          </div>
+
+          <div className="card col-sm">
+            <img src='' alt=''></img>
+            <div className='card-body'>
+              <h3 className='card-title' ></h3>
+              <p className='card-text' >
+
+              </p>
+            </div>
+          </div>
+
+          <div className="card col-sm">
+            <img src='' alt=''></img>
+            <div className='card-body'>
+              <h3 className='card-title' ></h3>
+              <p className='card-text' >
+
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+
+
+        <div className="row">
+
+          <div className="card col-sm">
             <img src='' alt=''></img>
             <div className='card-body'>
               <h3 className='card-title' ></h3>
