@@ -44,31 +44,31 @@ export class cookiesMenu extends Component {
         <div className="row">
 
           <div className="card col-sm">
-            <img src='' alt=''></img>
+            <img src='' alt='Classsic round chocolate chip cookie.'></img>
             <div className='card-body'>
-              <h3 className='card-title' ></h3>
+              <h3 className='card-title' >Chocochips</h3>
               <p className='card-text' >
-
+                classic chocolate chip cookie with a crunchy outside with a soft inside chewy inside.
               </p>
             </div>
           </div>
 
           <div className="card col-sm">
-            <img src='' alt=''></img>
+            <img src='' alt='Two swirls of sugary fried bread touching at the center'></img>
             <div className='card-body'>
-              <h3 className='card-title' ></h3>
+              <h3 className='card-title' >Ojarascas</h3>
               <p className='card-text' >
-
+                These Mexican Shortbread Cookies,also called Ojarascas, are light, buttery, crumbly shortbread cookies rolled in cinnamon sugar and they literally melt in your mouth. The perfect treat for Cinco de Mayo or your next Fiesta!
               </p>
             </div>
           </div>
 
           <div className="card col-sm">
-            <img src='' alt=''></img>
+            <img src='' alt='shaped and colored like a watermelon slice.'></img>
             <div className='card-body'>
-              <h3 className='card-title' ></h3>
+              <h3 className='card-title' >Sandia</h3>
               <p className='card-text' >
-
+                Cookie shaped like a big slice of water melon
               </p>
             </div>
           </div>
