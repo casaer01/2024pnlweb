@@ -151,7 +151,7 @@ export class cookiesMenu extends Component {
           <div className="card col-sm">
             <img src='' alt=''></img>
             <div className='card-body'>
-              <h3 className='card-title' ></h3>
+              <h3 className='card-title' >mini Sandiamini</h3>
               <p className='card-text' >
 
               </p>
@@ -161,7 +161,43 @@ export class cookiesMenu extends Component {
           <div className="card col-sm">
             <img src='' alt=''></img>
             <div className='card-body'>
-              <h3 className='card-title' ></h3>
+              <h3 className='card-title' >mini corazones</h3>
+              <p className='card-text' >
+
+              </p>
+            </div>
+          </div>
+
+          <div className="card col-sm">
+            <img src='' alt=''></img>
+            <div className='card-body'>
+              <h3 className='card-title' >mini Polvoron</h3>
+              <p className='card-text' >
+
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+
+
+        <div className="row">
+
+          <div className="card col-sm">
+            <img src='' alt=''></img>
+            <div className='card-body'>
+              <h3 className='card-title' >mini estrellitas</h3>
+              <p className='card-text' >
+
+              </p>
+            </div>
+          </div>
+
+          <div className="card col-sm">
+            <img src='' alt=''></img>
+            <div className='card-body'>
+              <h3 className='card-title' >Gorditas Harina</h3>
               <p className='card-text' >
 
               </p>
@@ -179,7 +215,6 @@ export class cookiesMenu extends Component {
           </div>
 
         </div>
-
 
 
         <div className="row">
