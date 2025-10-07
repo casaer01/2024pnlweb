@@ -66,7 +66,7 @@ export class cookiesMenu extends Component {
           <div className="card col-sm">
             <img src='' alt='shaped and colored like a watermelon slice.'></img>
             <div className='card-body'>
-              <h3 className='card-title' >Sandia</h3>
+              <h3 className='card-title' >Polvoron Sandia</h3>
               <p className='card-text' >
                 Cookie shaped like a big slice of water melon
               </p>
@@ -103,7 +103,7 @@ export class cookiesMenu extends Component {
             <div className='card-body'>
               <h3 className='card-title' >Galleta corazon</h3>
               <p className='card-text' >
-
+                heart shaped cookie 
               </p>
             </div>
           </div>
@@ -116,9 +116,9 @@ export class cookiesMenu extends Component {
           <div className="card col-sm">
             <img src='' alt=''></img>
             <div className='card-body'>
-              <h3 className='card-title' ></h3>
+              <h3 className='card-title' >Polvoron Nuez</h3>
               <p className='card-text' >
-
+                cookie topped with nuts
               </p>
             </div>
           </div>
@@ -126,9 +126,9 @@ export class cookiesMenu extends Component {
           <div className="card col-sm">
             <img src='' alt=''></img>
             <div className='card-body'>
-              <h3 className='card-title' ></h3>
+              <h3 className='card-title' >Polvoron Almendra</h3>
               <p className='card-text' >
-
+                Cookie topped with sliced almonds
               </p>
             </div>
           </div>
