@@ -24,20 +24,27 @@ import cookiesMenu from './components/cookiesMenu/cookiesMenu'
 // import 'bootstrap/dist/css/bootstrap.css';
 
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-<BrowserRouter>
-    <Topnavbar />
-    <InfoBar />
-    <SlideShow />
-    <App />
-    <AboutUs />
-    <Footer />
-    <MenuRegular />
-    <cookiesMenu />
-    <Order />
-</BrowserRouter>
-);
+// const root = ReactDOM.createRoot(document.getElementById('root'));
+// root.render(
+// <BrowserRouter>
+//     <Topnavbar />
+//     <InfoBar />
+//     <SlideShow />
+//     <App />
+//     <AboutUs />
+//     <Footer />
+//     <MenuRegular />
+//     <cookiesMenu />
+//     <Order />
+// </BrowserRouter>
+// );
+
+ReactDOM.render(
+    <BrowserRouter>
+        <App />
+    </BrowserRouter>,
+    document.getElementById('root')
+)
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
