@@ -37,28 +37,28 @@ const weatherData = {
 	},
 };
 
-function InfoBar() {
+// function InfoBar() {
 
 
-return (
-        <div className="topblack row" >
-          <div className="col-md-7">
-              <span>
-                  +1312 243 5977  
-              </span>
-              |
-              <span>
-                  <i className="fa-clock-o"/>
-                  Mon - Sun 7:00 am - 8:00 pm
-              </span>
-              | 
-              <span>
-                   Weather: {Math.trunc(weatherData.current.temperature2m)}°F
-              </span>
-          </div>
-        </div>
-    )
-}
+// return (
+//         <div className="topblack row" >
+//           <div className="col-md-7">
+//               <span>
+//                   +1312 243 5977  
+//               </span>
+//               |
+//               <span>
+//                   <i className="fa-clock-o"/>
+//                   Mon - Sun 7:00 am - 8:00 pm
+//               </span>
+//               | 
+//               <span>
+//                    Weather: {Math.trunc(weatherData.current.temperature2m)}°F
+//               </span>
+//           </div>
+//         </div>
+//     )
+// }
 
 class InfoBar extends Component {
 render() {
