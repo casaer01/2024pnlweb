@@ -21,6 +21,9 @@ function App() {
       <Routes>
         <Route path='/' Component={Topnavbar} />
 
+        <Route path='/' Component={SlideShow} />
+        <Route path='/' Component={InfoBar} />
+
 
         <Route path='' Component={Footer} />
       </Routes>
