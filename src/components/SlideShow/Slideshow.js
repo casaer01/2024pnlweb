@@ -5,7 +5,7 @@ import slideSweet from "../../images/slideshowSweets.png";
 import slideVegans from "../../images/slideshowVegans.png";
 import './SlideShow.css';
 
-class Slideshow extends Component {
+export default class Slideshow extends Component {
     render() {
         return (
             <div>
@@ -48,4 +48,4 @@ class Slideshow extends Component {
     }
 }
 
-export default Slideshow;
+// export default Slideshow;

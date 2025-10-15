@@ -60,7 +60,7 @@ const weatherData = {
 //     )
 // }
 
-class InfoBar extends Component {
+export default class InfoBar extends Component {
 render() {
     return (
             <div className="topblack row" >
@@ -83,4 +83,4 @@ render() {
     }
 }
 
-export default InfoBar;
+// export default InfoBar;

@@ -1,7 +1,7 @@
 // import logo from './logo.svg'clear;
 import './App.css';
+import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import { createRoot } from "react-dom/client";
-import { BrowserRouter as Router, Route, BrowserRouter } from 'react-router-dom';
 
 import Topnavbar from './components/TopNavbar/Topnavbar';
 import InfoBar from './components/InfoBar/infoBar';
@@ -14,38 +14,28 @@ import cookiesMenu from './components/cookiesMenu/cookiesMenu'
 import { Component } from 'react';
 import { render } from '@testing-library/react';
 
+const root = createRoot(document.getElementById("root"));
 
-function App() {
+export default function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path='/' Component={Topnavbar} />
+      
+        <Routes>
+          <Route path='/' element= { <Topnavbar/> } />
+          
+          <Route path='/' element={ <SlideShow/> } />
+          <Route path='/' element={ <InfoBar/> } />
 
-        <Route path='/' Component={SlideShow} />
-        <Route path='/' Component={InfoBar} />
+          <Route path='/aboutus' element={ <AboutUs/> } />
 
-
-        <Route path='' Component={Footer} />
-      </Routes>
-    </BrowserRouter>
+          <Route path='/' element={ <Footer/> } />
+        </Routes>
+      
   );
 }
 
 // https://www.w3schools.com/react/react_router.asp current version of react router.
 
-// class App extends Component {
-//   render() {
-//     return (
-//       <Router basename="/app">
-//         <Route>
-//           <Route path="/" Component={Topnavbar} />
+
+// export default App;
 
 
-//           <Route path='' Component={Footer} />
-//         </Route>
-//       </Router>
-//     );
-//   }
-// }
-
-export default App;

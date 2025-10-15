@@ -5,7 +5,7 @@ import pnlstrip from '../../images/breads.png';
 import "./AboutPNL.css"
 
 
-class AboutPNL extends Component{
+export default class AboutPNL extends Component{
 
     render() {
         return (
@@ -42,4 +42,4 @@ class AboutPNL extends Component{
     }
 }
 
-export default AboutPNL;
+// export default AboutPNL;

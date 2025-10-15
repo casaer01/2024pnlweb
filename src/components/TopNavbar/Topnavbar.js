@@ -6,7 +6,7 @@ import sidebrand from "../../images/papelred.png";
 import './topnavbar.css';
 
 
-class Topnavbar extends Component {
+export default class Topnavbar extends Component {
     render() {
         return (
             <div>
@@ -59,4 +59,4 @@ class Topnavbar extends Component {
     }
 }
 
-export default Topnavbar;
+// export default Topnavbar;
