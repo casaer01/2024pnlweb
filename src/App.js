@@ -15,7 +15,7 @@ import CookiesMenu from './components/cookiesMenu/cookiesMenu'
 
 // const root = createRoot(document.getElementById("root"));
 
-export default function App() {
+function App() {
   return (
       
         <Routes>
@@ -41,6 +41,6 @@ export default function App() {
 // https://www.w3schools.com/react/react_router.asp current version of react router.
 
 
-// export default App;
+export default App;
 
 
