@@ -17,12 +17,14 @@ import CookiesMenu from './components/cookiesMenu/cookiesMenu'
 
 function App() {
   return (
-      
+      <div>
+        <Topnavbar />
         <Routes>
-          <Route path='/' element= { <Topnavbar/> } />
-          
+          {/* <Route path='/' element= { <Topnavbar/> } /> */}
+
+          {/* <Route path='/' element={ <InfoBar/> } />           */}
           <Route path='/' element={ <SlideShow/> } />
-          <Route path='/' element={ <InfoBar/> } />
+
 
           <Route path='/aboutus' element={ <AboutUs/> } />
 
@@ -34,7 +36,7 @@ function App() {
 
           <Route path='/' element={ <Footer/> } />
         </Routes>
-      
+      </div>
   );
 }
 

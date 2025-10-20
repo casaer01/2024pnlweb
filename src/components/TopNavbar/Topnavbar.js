@@ -14,11 +14,11 @@ export default class Topnavbar extends Component {
                     <img src={sidebrand} alt="paper Picado" className="bakeryIcon " />
                 </div>
                 <div className="d-flex">
-                    <nav className="navbar d-flex navbar-expand-lg navbar-dark fixed-top mask-custom shadow-3">
+                    <nav className="navbar d-flex navbar-expand-lg navbar-dark fixed-top mask-custom p-0 shadow-3">
                         
-                        <div className="container-fluid navBody justify-content-between">
+                        <div className="container-fluid navBody justify-content-between p-0">
 
-                            <img src={sidebrand} alt="paper Picado" className="bakeryIcon " />
+                            <img src={sidebrand} alt="paper Picado" className="bakeryIcon no-gutter" />
                             <img src={logo} alt="Bakery Logo" className="bakeryLogo " />
 
                             <button className="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

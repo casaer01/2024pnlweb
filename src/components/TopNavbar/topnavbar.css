@@ -1,4 +1,8 @@
 
+.nav-bar{
+  width: 100% !important;
+}
+
 .nav-link .nav-link:active .nav-link:visited {
   color: white;
 }
