@@ -1,6 +1,6 @@
 // import logo from './logo.svg'clear;
 import './App.css';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, useRoutes } from 'react-router-dom';
 // import { createRoot } from "react-dom/client";
 
 import Topnavbar from './components/TopNavbar/Topnavbar';
@@ -15,10 +15,14 @@ import CookiesMenu from './components/cookiesMenu/cookiesMenu'
 
 // const root = createRoot(document.getElementById("root"));
 
+const start = () => useRoutes([])
+
+
 function App() {
   return (
       <div>
         <Topnavbar />
+        <InfoBar />
         <Routes>
           {/* <Route path='/' element= { <Topnavbar/> } /> */}
 
@@ -34,11 +38,15 @@ function App() {
 
           <Route path='/' element={ < CookiesMenu />} />
 
-          <Route path='/' element={ <Footer/> } />
+          {/* <Route path='/' element={ <Footer/> } /> */}
         </Routes>
+        <Footer />
       </div>
   );
 }
+
+// Use useRoutes to display page with mulitple elements.  https://stackoverflow.com/questions/40541994/multiple-path-names-for-a-same-component-in-react-router
+// Use nested routes?
 
 // https://www.w3schools.com/react/react_router.asp current version of react router.
 
