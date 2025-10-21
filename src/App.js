@@ -48,6 +48,8 @@ function App() {
 // Use useRoutes to display page with mulitple elements.  https://stackoverflow.com/questions/40541994/multiple-path-names-for-a-same-component-in-react-router
 // Use nested routes?
 
+// Layout routes may be the true answer https://reactrouter.com/start/framework/routing#layout-routes
+
 // https://www.w3schools.com/react/react_router.asp current version of react router.
 
 
