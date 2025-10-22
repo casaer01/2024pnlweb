@@ -1,6 +1,6 @@
 // import logo from './logo.svg'clear;
 import './App.css';
-import { Routes, Route, useRoutes } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 // import { createRoot } from "react-dom/client";
 
 import Topnavbar from './components/TopNavbar/Topnavbar';
@@ -15,8 +15,6 @@ import CookiesMenu from './components/cookiesMenu/cookiesMenu'
 
 // const root = createRoot(document.getElementById("root"));
 
-const start = () => useRoutes([])
-
 
 function App() {
   return (
@@ -29,17 +27,17 @@ function App() {
           {/* <Route path='/' element={ <InfoBar/> } />           */}
 
           <Route path='/' element={ <SlideShow/> } > 
-            <Route index element={ <placeholder/> } />
+            <Route index element={ <AboutUs /> } />
           </Route>
 
 
-          <Route path='/aboutus' element={ <AboutUs/> } />
+          {/* <Route path='/aboutus' element={ <AboutUs/> } /> */}
 
-          <Route path='/' element={<MenuRegular/>} />
+          <Route path='/menu' element={<MenuRegular/>} />
 
-          <Route path='/' element={ <Order/>} />
+          <Route path='/order' element={ <Order/>} />
 
-          <Route path='/' element={ < CookiesMenu />} />
+          <Route path='/menucookies' element={ < CookiesMenu />} />
 
           {/* <Route path='/' element={ <Footer/> } /> */}
         </Routes>
