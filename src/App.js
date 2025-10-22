@@ -1,6 +1,7 @@
 // import logo from './logo.svg'clear;
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
+import Layout from './Layout';
 // import { createRoot } from "react-dom/client";
 
 import Topnavbar from './components/TopNavbar/Topnavbar';
