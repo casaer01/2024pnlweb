@@ -27,7 +27,10 @@ function App() {
           {/* <Route path='/' element= { <Topnavbar/> } /> */}
 
           {/* <Route path='/' element={ <InfoBar/> } />           */}
-          <Route path='/' element={ <SlideShow/> } />
+
+          <Route path='/' element={ <SlideShow/> } > 
+            <Route index element={ <placeholder/> } />
+          </Route>
 
 
           <Route path='/aboutus' element={ <AboutUs/> } />
