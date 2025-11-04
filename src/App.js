@@ -1,6 +1,6 @@
 // import logo from './logo.svg'clear;
 import './App.css';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, Outlet } from 'react-router-dom';
 import Layout from './Layout';
 // import { createRoot } from "react-dom/client";
 
@@ -28,7 +28,7 @@ function App() {
           {/* <Route path='/' element={ <InfoBar/> } />           */}
 
           <Route path='/' element={ <SlideShow/> } > 
-            <Route index element={ <AboutUs /> } />
+            <Route index element={ <AboutUs/> }  />
           </Route>
 
 
