@@ -27,8 +27,9 @@ function App() {
 
           {/* <Route path='/' element={ <InfoBar/> } />           */}
 
-          <Route path='/' element={ <SlideShow/> } > 
-            <Route index element={ <AboutUs/> }  />
+          <Route path='/' element={ <Layout/> } > 
+            <Route index element={ <SlideShow/> }  />
+            <Route path='about' element={ <AboutUs /> } />
           </Route>
 
 
