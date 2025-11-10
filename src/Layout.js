@@ -4,11 +4,11 @@ import { Outlet } from 'react-router-dom';
 function Layout() {
   return (
     <div>
-      <header>Header Content</header>
+      <header></header>
       <main>
-        <Outlet />  // This is where child routes render
+        <Outlet />
       </main>
-      <footer>Footer Content</footer>
+      <footer></footer>
     </div>
   );
 }
