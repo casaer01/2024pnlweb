@@ -23,17 +23,12 @@ function App() {
         <Topnavbar />
         <InfoBar />
         <Routes>
-          {/* <Route path='/' element= { <Topnavbar/> } /> */}
-
-          {/* <Route path='/' element={ <InfoBar/> } />           */}
 
           <Route path='/' element={ <Layout/> } > 
             <Route index element={ <SlideShow/> }  />
-            <Route path='/' element={ <AboutUs/> } />
+            <Route path='/about' element={ <AboutUs/> } />
           </Route>
 
-
-          {/* <Route path='/aboutus' element={ <AboutUs/> } /> */}
 
           <Route path='/menu' element={<MenuRegular/>} />
 
@@ -41,7 +36,6 @@ function App() {
 
           <Route path='/menucookies' element={ < CookiesMenu />} />
 
-          {/* <Route path='/' element={ <Footer/> } /> */}
         </Routes>
         <Footer />
       </div>
