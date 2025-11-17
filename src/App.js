@@ -13,7 +13,7 @@ import MenuRegular from './components/MenuRegular/menuRegular';
 import Order from './components/Orders/order';
 import CookiesMenu from './components/cookiesMenu/cookiesMenu'
 
-
+// Maybe this thread has the answer? https://www.reddit.com/r/reactjs/comments/r1usv4/how_do_i_display_multiple_components_on_a_single/
 // const root = createRoot(document.getElementById("root"));
 
 
