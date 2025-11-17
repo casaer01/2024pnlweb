@@ -14,6 +14,7 @@ import Order from './components/Orders/order';
 import CookiesMenu from './components/cookiesMenu/cookiesMenu'
 
 // Maybe this thread has the answer? https://www.reddit.com/r/reactjs/comments/r1usv4/how_do_i_display_multiple_components_on_a_single/
+//Using the tag fragment maybe the answer to combine mutliple elements to show on one page.
 // const root = createRoot(document.getElementById("root"));
 
 
