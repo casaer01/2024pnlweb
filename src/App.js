@@ -6,6 +6,7 @@ import Layout from './Layout';
 
 import Topnavbar from './components/TopNavbar/Topnavbar';
 import InfoBar from './components/InfoBar/infoBar';
+import Homepage from './components/Homepage/Homepage';
 import SlideShow from './components/SlideShow/Slideshow';
 import Footer from './components/Footer/footer';
 import AboutUs from './components/AboutPNL/AboutPNL';
@@ -25,10 +26,7 @@ function App() {
         <InfoBar />
         <Routes>
 
-          <Route path='/' element={ <Layout/> } > 
-            <Route index element={ <SlideShow/> }  />
-            <Route path='/about' element={ <AboutUs/> } />
-          </Route>
+          <Route path='/' element={ <Homepage/> } ></Route>
 
 
           <Route path='/menu' element={<MenuRegular/>} />
