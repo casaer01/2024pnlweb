@@ -1,4 +1,5 @@
 import React, { Component, useState, useEffect } from "react";
+import './InfoBar.css';
 import { fetchWeatherApi } from 'openmeteo';
 
 const params = {
