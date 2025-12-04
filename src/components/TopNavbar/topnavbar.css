@@ -3,6 +3,12 @@
   width: 100% !important;
 }
 
+html, body {
+
+overflow-x: hidden;
+
+}
+
 .nav-link .nav-link:active .nav-link:visited {
   color: white;
 }
