@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import SlideShow from './components/SlideShow/Slideshow';
-import Aboutus from './components/AboutPNL/AboutPNL';
+import SlideShow from '../SlideShow/Slideshow';
+import Aboutus from '../AboutPNL/AboutPNL';
 
 export default class Homepage extends Component {
     render() {
