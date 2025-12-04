@@ -1,15 +1,11 @@
 // import logo from './logo.svg'clear;
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
-import Layout from './Layout';
-// import { createRoot } from "react-dom/client";
 
 import Topnavbar from './components/TopNavbar/Topnavbar';
 import InfoBar from './components/InfoBar/infoBar';
 import Homepage from './components/Homepage/Homepage';
-import SlideShow from './components/SlideShow/Slideshow';
 import Footer from './components/Footer/footer';
-import AboutUs from './components/AboutPNL/AboutPNL';
 import MenuRegular from './components/MenuRegular/menuRegular';
 import Order from './components/Orders/order';
 import CookiesMenu from './components/cookiesMenu/cookiesMenu'
