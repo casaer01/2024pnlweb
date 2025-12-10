@@ -35,10 +35,10 @@ export default class Topnavbar extends Component {
                                         <Link className="nav-link" to="/">Tortillas</Link>
                                     </li>
                                     <li className="nav-item">
-                                        <Link className="nav-link" to="/menu">Bread</Link>
+                                        <Link className="nav-link" to="/menu">Breads</Link>
                                     </li>
                                     <li className="nav-item">
-                                        <Link className="nav-link" to="/">Orders</Link>
+                                        <Link className="nav-link" to="/order">Orders</Link>
                                     </li>
                                     <li className="nav-item">
                                         <Link className="nav-link" to="/">About</Link>
