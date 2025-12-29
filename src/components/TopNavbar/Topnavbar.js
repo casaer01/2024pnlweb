@@ -32,7 +32,7 @@ export default class Topnavbar extends Component {
                                         <Link className="nav-link" to="/" >Home</Link>
                                     </li>
                                     <li className="nav-item">
-                                        <Link className="nav-link" to="/">Tortillas</Link>
+                                        <Link className="nav-link" to="/tortillas">Tortillas</Link>
                                     </li>
                                     <li className="nav-item">
                                         <Link className="nav-link" to="/menu">Breads</Link>

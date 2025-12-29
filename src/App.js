@@ -9,6 +9,7 @@ import Footer from './components/Footer/footer';
 import MenuRegular from './components/MenuRegular/menuRegular';
 import Order from './components/Orders/order';
 import CookiesMenu from './components/cookiesMenu/cookiesMenu'
+import TortillasMenu from './components/TortillasMenu/TortillasMenu';
 
 // Maybe this thread has the answer? https://www.reddit.com/r/reactjs/comments/r1usv4/how_do_i_display_multiple_components_on_a_single/
 //Using the tag fragment maybe the answer to combine mutliple elements to show on one page.
@@ -29,7 +30,9 @@ function App() {
 
           <Route path='/order' element={ <Order/>} />
 
-          <Route path='/menucookies' element={ < CookiesMenu />} />
+          <Route path='/menucookies' element={ < CookiesMenu /> } />
+
+          <Route path='/tortillas' element={ <TortillasMenu/> } />
 
         </Routes>
         <Footer />
