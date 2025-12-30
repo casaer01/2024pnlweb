@@ -13,7 +13,7 @@ export default class TortillasMenu extends Component {
                         <h1>Traditional</h1>
                     </div>
                     <div className='cardDesc'>
-                        <p>desc</p>
+                        <p>Authentic traditional flour tortilla that is soft, pliable, and delicious. A classic to have to use on soft tacos, burritos, wraps, soups or quesadillas</p>
                     </div>
                     </div>
                 </div>
