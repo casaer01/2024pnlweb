@@ -24,7 +24,7 @@ export default class TortillasMenu extends Component {
                         <h1>Trigo</h1>
                     </div>
                     <div className='cardDesc'>
-                        <p></p>
+                        <p>Same authentic flour tortilla but made with the addition of wheat to those who wish to get more fiber into their diet.</p>
                     </div>
                     </div>
                 </div>
@@ -35,7 +35,7 @@ export default class TortillasMenu extends Component {
                         <h1>Margarine</h1>
                     </div>
                     <div className='cardDesc'>
-                        <p></p>
+                        <p>Margarine or butter in english makes it softer and tender while adding a rich and creamy taste to it.</p>
                     </div>
                     </div>
                 </div>
@@ -50,7 +50,7 @@ export default class TortillasMenu extends Component {
                         <h1>Chile de Arbol</h1>
                     </div>
                     <div className='cardDesc'>
-                        <p></p>
+                        <p>Add some spicyness to your flour tortilla, adding in a small kick with every bit you take!</p>
                     </div>
                     </div>
                 </div>
