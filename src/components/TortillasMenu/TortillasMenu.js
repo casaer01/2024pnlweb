@@ -61,7 +61,7 @@ export default class TortillasMenu extends Component {
                         <h1>Nopal</h1>
                     </div>
                     <div className='cardDesc'>
-                        <p></p>
+                        <p>Nopal refers to the catus seen around in Mexico. Has a slight tanginess from the nopal and makes the tortilla softer and more flexible than usual.</p>
                     </div>
                     </div>
                 </div>
@@ -72,7 +72,7 @@ export default class TortillasMenu extends Component {
                         <h1>Habanero</h1>
                     </div>
                     <div className='cardDesc'>
-                        <p></p>
+                        <p>Spicyness hit you quick and hard but does not linger as much as other spices. With the Habanero it brings a slight fruity and citrusy taste.</p>
                     </div>
                     </div>
                 </div>
@@ -87,7 +87,7 @@ export default class TortillasMenu extends Component {
                         <h1>Chile Guajillo</h1>
                     </div>
                     <div className='cardDesc'>
-                        <p></p>
+                        <p>Usually Chile Guajillo has a mild yet gentle heat to it. It also has a earthy and somewhat sweet taste similar to a berry while also having a rich and savory chile flavor.</p>
                     </div>
                     </div>
                 </div>
