@@ -95,10 +95,10 @@ export default class TortillasMenu extends Component {
                 <div className='col-sm cardMain'>
                     <div className='cardOuter'>
                     <div className='cardHead'>
-                        <h1>Jalapeno</h1>
+                        <h1>Jalapeño</h1>
                     </div>
                     <div className='cardDesc'>
-                        <p></p>
+                        <p>Jalapeño tortillas add a bold, savory flavor with a mild spicy kick, making them perfect for wraps, tacos, burritos, and quesadillas. Made to balance fresh jalapeño taste with soft, flexible texture, they elevate everyday meals with just the right amount of heat.</p>
                     </div>
                     </div>
                 </div>
@@ -109,7 +109,7 @@ export default class TortillasMenu extends Component {
                         <h1>Chipotle</h1>
                     </div>
                     <div className='cardDesc'>
-                        <p></p>
+                        <p>Chipotle tortillas have a warm, soft, and pliable touch to them. Tasting mildly wheaty  and savory with a hint of saltiness.</p>
                     </div>
                     </div>
                 </div>
