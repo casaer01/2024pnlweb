@@ -124,7 +124,7 @@ export default class TortillasMenu extends Component {
                         <h1>Manteca Inca</h1>
                     </div>
                     <div className='cardDesc'>
-                        <p></p>
+                        <p>There is a deep savory flavor in the tortilla while having a small taste of pork.</p>
                     </div>
                     </div>
                 </div>
@@ -135,7 +135,7 @@ export default class TortillasMenu extends Component {
                         <h1>Mole</h1>
                     </div>
                     <div className='cardDesc'>
-                        <p></p>
+                        <p>Complex flavor that is earthy and roasted with a mild bitterness. One of the quickest way to have mole with your dish.</p>
                     </div>
                     </div>
                 </div>
@@ -146,7 +146,7 @@ export default class TortillasMenu extends Component {
                         <h1>Spinach</h1>
                     </div>
                     <div className='cardDesc'>
-                        <p></p>
+                        <p>A more healthy alternative take to eating flour tortillas. Each bite is soft and fluffly like any other flour tortilla with the addition of the taste of spinach.</p>
                     </div>
                     </div>
                 </div>
