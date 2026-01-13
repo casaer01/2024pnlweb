@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import {About} from '../AboutPNL/AboutPNL'
+// import {About} from '../AboutPNL/AboutPNL'
 import {Link} from "react-router-dom";
 import logo from "../../images/PNLdistlogo.png";
 import sidebrand from "../../images/papelred.png";
@@ -14,7 +14,7 @@ export default class Topnavbar extends Component {
                     <img src={sidebrand} alt="paper Picado" className="bakeryIcon " />
                 </div>
                 <div className="d-flex">
-                    <nav className="navbar d-flex navbar-expand-lg navbar-dark fixed-top mask-custom p-0 shadow-3">
+                    <nav className="navbar d-flex navbar-expand-lg navbar-dark fixed-top mask-custom p-0 r-0 shadow-3">
                         
                         <div className="container-fluid navBody justify-content-between p-0">
 
@@ -27,7 +27,7 @@ export default class Topnavbar extends Component {
 
                             <div className="collapse justify-content-end navbar-collapse" id="navbarSupportedContent">
 
-                                <ul className="navbar-nav rightBlock mx-auto me-auto mb-2 mb-lg-1">
+                                <ul className="navbar-nav rightBlock mb-2 mb-lg-1">
                                     <li className="nav-item ">
                                         <Link className="nav-link" to="/" >Home</Link>
                                     </li>
