@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import {About} from '../AboutPNL/AboutPNL'
-import Link from "react-router-dom";
+import {Link} from "react-router-dom";
 import logo from "../../images/PNLdistlogo.png";
 import sidebrand from "../../images/papelred.png";
 import './topnavbar.css';
